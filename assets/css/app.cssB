@@ -16,7 +16,6 @@ body {background:#000;
 
 @font-face{
    font-family: "webfont";
-   font-family: "headerfont";
    src: url(../fonts/fontawesome-webfont.ttf);
 }
 
@@ -27,7 +26,6 @@ Side Navbar
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.7);
   min-width: 100%;
-  z-index: 100;
 }
 
 .nav > li > a {
@@ -42,11 +40,6 @@ Side Navbar
 }
 .navbar-toggle {
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 100;
-}
-
-.navlogo {
-  display:none
 }
 
 
@@ -54,13 +47,9 @@ Side Navbar
    Base
    ========================================================================== */
 
-.wrap {
-  padding:0px;
-}
-
 .wrap, .main {
 
-  min-height:350px;
+  padding:0px;
 }
 
 .content .row {
@@ -69,20 +58,18 @@ Side Navbar
  
 h1{
    color: #FFFFFF;
-   font-family: "headerfont";ma
-   
 }
 
 h2{
    color: #FFFFFF;
-  font-family: "headerfont";
 }
 
 h3{
-   font-family: "headerfont";
-
+   font-family: "webfont";
+   font-size: 36px;
+   color: #646464;
 }
- a {
+h1, h2, h3, a {
    font-family: "webfont"!important;
    word-spacing: 2px;
    letter-spacing: .5px;
@@ -92,9 +79,9 @@ p{
    color: #83807A;
 }
 
-/*a{
+a{
    color: #83807A!important;
-}*/
+}
 
 a:hover {
   color: #9cf;
@@ -109,7 +96,7 @@ a h3.smaller:hover {
 color: #FFF;
 }
 
-/*.rotate-pos {
+.rotate-pos {
 transform: skewY(3deg);
 -moz-transform: skewY(3deg);
 -webkit-transform: skewY(3deg) translate3d( 0, 0, 0);
@@ -123,7 +110,7 @@ transform: skewY(-3deg);
 -webkit-transform: skewY(-3deg) translate3d( 0, 0, 0);
 -o-transform: skewY(-3deg);
 -ms-transform: skewY(-3deg);
-}*/
+}
 
 /*.go-full {margin:0 -20px; padding:0 20px;}*/
 
@@ -160,8 +147,6 @@ transform: skewY(-3deg);
    color: #FFF!important;
    border-color: #FFF!important;
 }
-
-.alert, .alert-warning {display: none;}
 
 
 /* ==========================================================================
@@ -248,6 +233,33 @@ height: 60%!important;
    max-height: 500px;
 } */
 
+/* =======================
+   Tour Section [Home]
+   ======================= */
+   
+.bit-description-links a:hover,
+.bit-date a:hover, 
+.bit-venue a:hover,
+.bit-location a:hover,
+.bit-tickets a:hover,
+.bit-rsvp a:hover {
+	color:#777!important;
+}
+
+.bit-location {width:23%;}
+
+.bit-venue, .bit-date, .bit-description-links,
+.bit-location, .bit-tickets {
+	font-size:20px!important;
+	padding:10px 0px;
+}
+
+#bit-events tr {
+line-height: 3em;
+}
+td a {
+font-size: 12px!important;
+}
    
 /* =======================
    News Section [Home]
@@ -257,39 +269,26 @@ height: 60%!important;
    Photos Section [Home]
    ======================= */
    
+/* =======================
+   Store Section [Home]
+   ======================= */
 
-/*#tubular-container{
+#tubular-container{
   z-index: -10000!important;
-}*/
+}
 
 /* ==========================================================================
-   Tour Page
+   Tour [Page]
    ========================================================================== */
 
-   
-.bit-description-links a:hover,
-.bit-date a:hover, 
-.bit-venue a:hover,
-.bit-location a:hover,
-.bit-tickets a:hover,
-.bit-rsvp a:hover {
-  color:#777!important;
+body.tour {
+background-attachment: fixed!important;
+background-position: center!important;
+background: url("/assets/img/cwbg.jpg") top center repeat;
+background-size: cover;
 }
 
-.bit-location {width:23%;}
-
-.bit-venue, .bit-date, .bit-description-links,
-.bit-location, .bit-tickets {
-  font-size:20px!important;
-  padding:10px 0px;
-}
-
-#bit-events tr {
-line-height: 3em;
-}
-td a {
-font-size: 13px!important;
-}
+body.tour .wrap {padding: 50px 0px;}
 
 body.tour .tour-page h3 {
 display: none;
@@ -329,6 +328,9 @@ body.post-type-archive-music .music-body{
    Tour
    ========================================================================== */
 .tour-body{
+      background: url(../img/tour-bg.jpg) top center repeat;
+      background-size: cover;
+	  padding: 50px 0px;
 }
 
 .tour-body h3 {
@@ -652,7 +654,6 @@ margin-left: -22px;
 
 footer {
   padding-top: 12%;
-  z-index: -1;
 }
 
 /* ==========================================================================
@@ -707,7 +708,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
 /* ==========================================================================
-   MEDIA QUIERIES!!!!!!!!!
+   Media Queries
    ========================================================================== */
 
 /* Extra small devices (phones, up to 480px) */
@@ -716,22 +717,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
-.mainlogo{
-    height: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 410px;
-    z-index: -10;
-  }
-
-.main   {
-  min-height: inherit;
-  margin-left: 16%;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 30px;
-  min-width: 15% !important
+.wrap {min-height:600px;
 }
 
 body {
@@ -741,14 +727,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-
-a{
-   color: inherit;
-}
-
-/*td a {
+td a {
 font-size: initial!important;
-}*/
+}
 
 .nav > li > a {
     padding: 0px;
@@ -762,7 +743,7 @@ font-size: initial!important;
 .navbar-collapse{
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.45);
   min-width: 15% !important;
-  z-index: 1;
+  padding-top: 200px;
 }
 
 .navbar-collapse.collapse {
@@ -770,15 +751,6 @@ font-size: initial!important;
     min-height: 100% !important;
     overflow: visible !important;
     padding-bottom: 0;
-}
-
-.navlogo {
-  display: inherit;
-  height: 180px;
-  width: 160px;
-  margin-left: auto ;
-  margin-right: auto ;
-  z-index: -10;
 }
 
 .vid-text{
@@ -817,23 +789,21 @@ font-size: 14px;
    }
 
    footer {padding-top: initial;}
-
+   h3{
+      font-size: 56px;
+   }
    .bit-location{
    width: 23%!important;
 }
-
-.col-md-6 .bands-in-town-section { 
-  width: 100%;
-  }
 .topspin-signup{
       height: 55px;
    }
 #signup {
-  transition: right 0.4s ease;
-  right: -300px;
-  position: fixed;
-  z-index: 1000000;
-  width: 580px;
+transition: right 0.4s ease;
+right: -300px;
+position: fixed;
+z-index: 1000000;
+width: 580px;
 }
 
 #signup-button > h3 {
@@ -852,6 +822,7 @@ font-size: 14px;
     text-align: left;
     width: 210px;
    }
+
 
 #signup:hover, #signup:focus, .hover_effect{
    right: 0px!important;
@@ -879,11 +850,9 @@ font-size: 14px;
     bottom: 0px;
     display: block;
     position: fixed;
-    text-align: center;
-    max-width: 15%;
+    text-align: left;
+    width: 25%;
     font-size: 11px;
-    z-index: 100;
-    
 }
 .video-body{
    height: 0px;
@@ -897,10 +866,6 @@ font-size: 14px;
  }
 
 /* Medium devices (desktops, 992px and up) */
-.main, {
-  left: 15%
-}
-
 @media (min-width:992px) {
    .video-body {
 padding-bottom: 45%;
@@ -926,7 +891,9 @@ margin: 0% -10%;
    max-width: 24%;
 }
 
-.tour-body, .blog-home-body, .media-body {
+
+
+#music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
 margin-bottom: 50px;
 padding: 10% 0px 13% 0px;
 }
@@ -945,6 +912,17 @@ height: auto;
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
 } /* removes the "Continued" link from the Excerpt */
+
+.store-body .border-box a {
+color: #E64C1F!important;
+border: 3px solid #E64C1F;
+padding: 2px;
+text-align: center;
+font-size: 18px;
+margin-left: 0px!important;
+}
+
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
