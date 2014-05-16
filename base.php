@@ -16,6 +16,7 @@
       get_template_part('templates/header');
     }
   ?>-->
+<div class="bg">
 
   <div class="wrap container" role="document">
     <div class="content row">
@@ -39,6 +40,6 @@
 
 
   <?php get_template_part('templates/footer'); ?>
-
+</div>
 </body>
 </html>

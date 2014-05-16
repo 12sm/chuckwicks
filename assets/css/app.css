@@ -7,13 +7,16 @@ html {
     -webkit-font-smoothing: antialiased !important;
 }
 
-body {background:#000;
-      background-image:url("/assets/img/cwbg-mob.jpg");
+body {
+  background:#000;
+}
+     
+.bg { background-image:url("/assets/img/cwbg-mob.jpg");
       background-repeat: no-repeat;
       background-position: top center;
       background-attachment: fixed;
       background-size: cover;
-      opacity:0.4;
+
 } 
 
 @font-face{
