@@ -550,9 +550,10 @@ padding: 15px;
     text-align: left;
 }
 
-   .signup-row{
-      height: 0px;
-   }
+.signup-row {
+    height: 0;
+    padding-top: 50px;
+}
 
    #signup-button{
       height: 55px;
@@ -814,6 +815,12 @@ font-size: 14px;
 .col-md-6 .bands-in-town-section { 
   width: 100%;
   }
+
+.signup-row {
+    height: 0;
+    padding-top: inherit;
+}
+
 .topspin-signup{
       height: 55px;
    }
