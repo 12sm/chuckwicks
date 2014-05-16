@@ -211,24 +211,9 @@ color: #E64C1F!important;
    Content - HOME
    ========================================================================== */
 
-/*.content {
-margin-left: 0px;
-margin-right: 0px;
+.homenewsdiv {
+  display: none;
 }
-
-#tubular-shield{
-   z-index: -10000!important;
-}
-#vid-content{
-   z-index: 5!important;
-}
-.vid-store-banner {
-margin: 0 auto;
-}
-.vid-icon a {
-background-size: contain;
-width: 100%;
-} */
 
 /* =======================
    Music Section [Home]
@@ -779,6 +764,10 @@ font-size: initial!important;
   margin-left: auto ;
   margin-right: auto ;
   z-index: -10;
+}
+
+.homenewsdiv {
+  display: inherit;
 }
 
 .vid-text{
