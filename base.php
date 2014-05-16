@@ -17,7 +17,6 @@
     }
   ?>-->
 <div class="bg">
-
   <div class="wrap container" role="document">
     <div class="content row">
         <?php if (roots_display_sidenavbar()) : ?>
@@ -40,6 +39,6 @@
 
 
   <?php get_template_part('templates/footer'); ?>
-</div>
 </body>
+</div>
 </html>
