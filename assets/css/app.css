@@ -13,12 +13,13 @@ body {background:#000;
       background-position: top center;
       background-attachment: fixed;
       background-size: cover;
+      opacity:0.4;
 } 
 
 @font-face{
-   font-family: "webfont";
+   /*font-family: "webfont";*/
    font-family: "headerfont";
-   src: url(../fonts/fontawesome-webfont.ttf);
+   src: url(../fonts/Walkway-Bold.ttf);
 }
 
 /* ==========================================================================
@@ -215,6 +216,10 @@ color: #E64C1F!important;
 .homenewsdiv {
   display: none;
 }
+.newsdiv {
+  width: 60%;
+}
+
 
 /* =======================
    Music Section [Home]
@@ -705,10 +710,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .mainlogo{
     height: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     width: 410px;
     z-index: -10;
+    margin-top: 30px;
   }
 
 .main   {
@@ -770,6 +775,10 @@ font-size: initial!important;
 
 .homenewsdiv {
   display: inherit;
+}
+
+.newsdiv {
+  width: inherit;
 }
 
 .vid-text{
