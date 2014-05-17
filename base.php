@@ -18,7 +18,12 @@
 
   <div class="wrap container" role="document">
     <div class="content row">
-        
+        <?php if (roots_display_sidenavbar()) : ?>
+            <div class="<?php echo roots_sidenavbar_class(); ?>">
+                <section class="side-nav-wrapper">
+                    <?php get_template_part('templates/sidenavbar'); ?>
+                </section>
+            </div><!-- /.sidenavbar -->
         <?php endif; ?>
         <?php if ( is_page( 'Home' ) )   {
           get_template_part('templates/header');
@@ -26,14 +31,7 @@
           ?>
        <div class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
-      </div>
-      <?php if (roots_display_sidenavbar()) : ?>
-            <div class="<?php echo roots_sidenavbar_class(); ?>">
-                <section class="side-nav-wrapper">
-                    <?php get_template_part('templates/sidenavbar'); ?>
-                </section>
-            </div><!-- /.sidenavbar -->
-      <!-- /.main -->
+      </div><!-- /.main -->
       <!--<?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
           <?php include roots_sidebar_path(); ?>
