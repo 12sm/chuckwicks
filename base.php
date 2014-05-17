@@ -31,11 +31,6 @@
         include roots_template_path(); 
         </div>
         } 
-        else {
-       <div class="main <?php echo roots_main_class(); ?>" role="main">
-        include roots_template_path(); 
-      </div>
-      }
       ?><!-- /.main -->
       <!--<?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
