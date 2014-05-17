@@ -27,9 +27,6 @@
         <?php endif; ?>
         <?php if ( is_page( 'Home' ) )   {
           get_template_part('templates/header'); 
-       <div class="main <?php echo roots_main_class(); ?>" role="main">
-        include roots_template_path(); 
-      </div><!-- /.main -->
         } 
           ?>
        <div class="main <?php echo roots_main_class(); ?>" role="main">
