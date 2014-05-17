@@ -9,7 +9,7 @@ html {
 
 body {
       background-image:url("/assets/img/cwbg-mob.jpg");
-      background:#000;
+      background: (0,0,0,.5);
       background-repeat: no-repeat;
       background-position: top center;
       background-attachment: fixed;
@@ -726,9 +726,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     min-width: 15% !important
 }
 
-.body {
-    background-image: url("/assets/img/cwbg.jpg");
+.body {    
     background:#000;
+    background-image: url("/assets/img/cwbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
