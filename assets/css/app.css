@@ -8,8 +8,8 @@ html {
 }
 
 body {
+      background: #000;
       background-image:url("/assets/img/cwbg-mob.jpg");
-      background: (0,0,0,.5);
       background-repeat: no-repeat;
       background-position: top center;
       background-attachment: fixed;
