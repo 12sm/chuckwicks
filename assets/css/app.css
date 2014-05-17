@@ -720,6 +720,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     z-index: -10;
     margin-top: 30px;
   }
+  
 .home {
     min-height: inherit;
     margin-left: 275px;
@@ -729,7 +730,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     padding-right: auto;
     padding-bottom: 30px;
     min-width: 15% !important
-}
 }
 
 .main   {
