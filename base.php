@@ -1,5 +1,5 @@
-<?php get_template_part('templates/head'); ?>
-
+<?php get_template_part('templates/head'); 
+      get_template_part('templates/header');?>
 <body <?php body_class(); ?>>
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -12,10 +12,10 @@
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
       get_template_part('templates/header-top-navbar');
-    } else {
-      get_template_part('templates/header');
+    } else {-->
+
     }
-  ?>-->
+  ?>
 
   <div class="wrap container" role="document">
     <div class="content row">
