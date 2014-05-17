@@ -33,10 +33,13 @@ Side Navbar
 }
 
 .nav > li > a {
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-  }
+    color: #83807A;
+    font-family: headerfont;
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 .nav-pills > li > a:hover, a:focus {
     color: #9CF;
@@ -71,7 +74,7 @@ Side Navbar
  
 h1{
    color: #FFFFFF;
-   font-family: "headerfont";ma
+   font-family: "headerfont";
    
 }
 
