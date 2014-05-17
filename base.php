@@ -1,4 +1,5 @@
 <?php get_template_part('templates/head'); ?>
+<div class="bg">
 <body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
@@ -16,7 +17,7 @@
       get_template_part('templates/header');
     }
   ?>-->
-<div class="bg">
+
   <div class="wrap container" role="document">
     <div class="content row">
         <?php if (roots_display_sidenavbar()) : ?>
