@@ -1,7 +1,7 @@
 <?php get_template_part('templates/head'); ?>
-<div class="bg" HELLLLOOOOO>
-<body <?php body_class(); ?>>
 
+<body <?php body_class(); ?>>
+<div class="bg">
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
@@ -40,6 +40,7 @@
 
 
   <?php get_template_part('templates/footer'); ?>
-</body>
+
 </div>
+</body>
 </html>
