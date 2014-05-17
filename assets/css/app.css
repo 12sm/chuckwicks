@@ -174,7 +174,7 @@ transform: skewY(-3deg);
    ========================================================================== */
 
 .page-header {
-  display: none;
+  /*display: none;*/
 }
 
 .banner { }
