@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<div class="bg">
+<div class="bg" HELLLLOOOOO>
 <body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
