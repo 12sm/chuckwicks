@@ -1,4 +1,6 @@
-<header class="banner container" role="banner">
+<div class="mainlogo"><img src="/assets/img/cwname.png"></div>
+
+<!--<header class="banner container" role="banner">
   <div class="row">
     <div class="col-xs-12">
       <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
@@ -11,4 +13,4 @@
       </nav>
     </div>
   </div>
-</header>
+</header>-->
