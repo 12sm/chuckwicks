@@ -25,7 +25,7 @@
                 </section>
             </div><!-- /.sidenavbar -->
         <?php endif; ?>
-        <?php if ( is_page(4) )   {
+        <?php if ( is_page( 'Home' ) )   {
           get_template_part('templates/header');
         } 
           ?>
