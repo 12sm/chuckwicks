@@ -26,12 +26,12 @@
             </div><!-- /.sidenavbar -->
         <?php endif; ?>
         <?php if ( is_page( 'Home' ) )   {
-          get_template_part('templates/header-home');
-        <div class="home <?php echo roots_main_class(); ?>" role="main">
-        include roots_template_path(); 
-        </div>
+          get_template_part('templates/header');
         } 
-      ?><!-- /.main -->
+          ?>
+       <div class="main <?php echo roots_main_class(); ?>" role="main">
+        <?php include roots_template_path(); ?>
+      </div><!-- /.main -->
       <!--<?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
           <?php include roots_sidebar_path(); ?>
