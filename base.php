@@ -25,7 +25,7 @@
                 </section>
             </div><!-- /.sidenavbar -->
         <?php endif; ?>
-        <?php if (is_home) {get_template_part('templates/header');} ?>
+        <?php if ('is_front_page') {get_template_part('templates/header');} ?>
        <div class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </div><!-- /.main -->
