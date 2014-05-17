@@ -26,20 +26,16 @@
             </div><!-- /.sidenavbar -->
         <?php endif; ?>
         <?php if ( is_page( 'Home' ) )   {
-          get_template_part('templates/header');
-<<<<<<< HEAD
-          ?>
+          get_template_part('templates/header'); 
        <div class="main <?php echo roots_main_class(); ?>" role="main">
         include roots_template_path(); 
-      </div>
-<!-- /.main -->
-=======
+      </div><!-- /.main -->
         } 
           ?>
        <div class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </div><!-- /.main -->
->>>>>>> 95f8dc2c78868e7bf5b90f2342f7ff21dacc4cdc
+
       <!--<?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
           <?php include roots_sidebar_path(); ?>
