@@ -726,7 +726,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     min-width: 15% !important
 }
 
-.body {    
+body {    
     background:#000;
     background-image: url("/assets/img/cwbg.jpg");
     background-size: cover;
