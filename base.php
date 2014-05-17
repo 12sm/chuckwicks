@@ -1,5 +1,4 @@
-<?php get_template_part('templates/head'); 
-      get_template_part('templates/header');?>
+<?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -26,6 +25,7 @@
                 </section>
             </div><!-- /.sidenavbar -->
         <?php endif; ?>
+        <?php get_template_part('templates/header'); ?>
        <div class="main <?php echo roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </div><!-- /.main -->
