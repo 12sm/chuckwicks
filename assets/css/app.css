@@ -570,9 +570,10 @@ padding: 15px;
       bottom: 60px;
       padding: 0px;
       }
+
    .topspin-signup{
       background-color: rgba(128,122,128, .5);
-      z-index: -10;
+      z-index: 1;
    }
    #e2ma_signup_reset_button{
       display: none!important;
