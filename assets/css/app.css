@@ -59,6 +59,10 @@ Side Navbar
    Base
    ========================================================================== */
 
+.row {
+    margin-bottom: 25px;
+}
+
 .wrap {
   padding:0px;
   margin-bottom: 40px;
@@ -73,7 +77,6 @@ Side Navbar
 
 .content .row {
   margin-left: 0px;
-  margin-bottom: 25px;
 }   
  
 .mainlogo{
@@ -705,6 +708,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.row {
+    margin-bottom: inherit;
+}
 
 .mainlogo{
     height: 120px;
