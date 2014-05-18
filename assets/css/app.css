@@ -61,13 +61,14 @@ Side Navbar
 
 .wrap {
   padding:0px;
+  margin-bottom: 40px;
 }
 
 .wrap, .main, .mainhome {
 
   min-height:350px;
   z-index: -10
-  margin-bottom: 40px;
+
 }
 
 .content .row {
