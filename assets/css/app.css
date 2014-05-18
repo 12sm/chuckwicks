@@ -61,7 +61,6 @@ Side Navbar
 
 .row {
     margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .wrap {
@@ -81,10 +80,11 @@ Side Navbar
 }   
  
 .mainlogo{
-    margin: 5% 5% 0% 5%;
-    width: 205px;
-    height: 60px;
+    margin: 5% 10% 0% 5%;
+    width: 305px;
+    height: 70px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 h1{
