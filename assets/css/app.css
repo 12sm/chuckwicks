@@ -74,6 +74,7 @@ Side Navbar
  
 .mainlogo{
     margin: 5% 5% 0% 5%;
+}
 
 h1{
    color: #FFFFFF;
@@ -117,23 +118,6 @@ a h3.smaller:hover {
 color: #FFF;
 }
 
-/*.rotate-pos {
-transform: skewY(3deg);
--moz-transform: skewY(3deg);
--webkit-transform: skewY(3deg) translate3d( 0, 0, 0);
--o-transform: skewY(3deg);
--ms-transform: skewY(3deg);
-}
-
-.rotate-neg {
-transform: skewY(-3deg);
--moz-transform: skewY(-3deg);
--webkit-transform: skewY(-3deg) translate3d( 0, 0, 0);
--o-transform: skewY(-3deg);
--ms-transform: skewY(-3deg);
-}*/
-
-/*.go-full {margin:0 -20px; padding:0 20px;}*/
 
 .post-type-archive-music>.container-fluid{
    padding: 50px 0px;
@@ -309,13 +293,7 @@ display: none;
 .music-content{
    margin-top: 4%;
 }
-#music-body{
- background-image: url(../img/music-bg.jpg);
-   background-size: cover;
-   background-position: center;
-   padding-bottom: 5%;
 
-}
 body.post-type-archive-music .music-body{
    padding-top: 3%;
 }
