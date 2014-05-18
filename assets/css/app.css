@@ -723,7 +723,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .mainhome   {
     min-height: inherit;
-    margin-left: 275px;
+    margin-left: 300px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
