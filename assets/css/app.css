@@ -724,12 +724,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .mainhome   {
     min-height: inherit;
     margin-left: 25%;
-    position: relative;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
     padding-right: auto;
     padding-bottom: 30px;
-    min-width: 15% !important;
+    width: 15%;
 }
 
 .main   {
