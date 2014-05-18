@@ -60,6 +60,7 @@ Side Navbar
    ========================================================================== */
 
 .row {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -710,6 +711,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width:768px) {
 
 .row {
+    margin-top: inherit;
     margin-bottom: inherit;
 }
 
