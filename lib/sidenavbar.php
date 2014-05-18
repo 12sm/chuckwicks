@@ -40,3 +40,4 @@ class Roots_SideNavbar {
     return is_page_template($page_template);
   }
 }
+?>
