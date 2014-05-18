@@ -9,7 +9,7 @@ html {
 
 body {
       background: #000;
-      /*-image:url("/assets/img/cwbgdk-mob.jpg");*/
+      image:url("/assets/img/cwbgdk-mob.jpg");
       background-repeat: no-repeat;
       background-position: top center;
       background-attachment: fixed;
