@@ -723,7 +723,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .mainhome   {
     min-height: inherit;
-    margin-left: 350px;
+    margin-left: 325px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
@@ -734,7 +734,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .main   {
     min-height: inherit;
-    margin-left: 250px;
+    margin-left: 225px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
