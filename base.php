@@ -25,13 +25,19 @@
                 </section>
             </div><!-- /.sidenavbar -->
         <?php endif; ?>
-        <?php if ( is_front_page() )    {
-          get_template_part('templates/header'); 
+        <?php 
+          if ( is_front_page() )    {
+            get_template_part('templates/header'); 
+            <div class="home <?php echo roots_main_class(); ?>" role="main">
+            </div>
         } 
-          ?>
-       <div class="main <?php echo roots_main_class(); ?>" role="main">
-        <?php include roots_template_path(); ?>
-      </div><!-- /.main -->
+          else { 
+            <div class="main <?php echo roots_main_class(); ?>" role="main">
+            <?php include roots_template_path(); ?>
+            </div>
+        }
+        <?php endif; ?>
+        <!-- /.main -->
 
       <!--<?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
