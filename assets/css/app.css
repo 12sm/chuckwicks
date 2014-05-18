@@ -793,6 +793,7 @@ font-size: initial!important;
 
 .homenewsdiv {
   display: inherit;
+  overflow: hidden;
 }
 
 .newsdiv {
