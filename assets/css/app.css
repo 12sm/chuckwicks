@@ -9,7 +9,7 @@ html {
 
 body {
       background: #000;
-      background-image:url("/assets/img/cwbgdk-mob.jpg");
+      /*-image:url("/assets/img/cwbgdk-mob.jpg");*/
       background-repeat: no-repeat;
       background-position: top center;
       background-attachment: fixed;
@@ -74,6 +74,7 @@ Side Navbar
  
 .mainlogo{
     margin: 5% 5% 0% 5%;
+    display: none;
 }
 
 h1{
