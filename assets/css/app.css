@@ -13,10 +13,11 @@ body {
       background-repeat: no-repeat;
       background-position: top center;
       background-attachment: fixed;
-      /*background-size: cover;*/
+      background-size: cover;
 } 
 
 @font-face{
+   /*font-family: "webfont";*/
    font-family: "headerfont";
    src: url(../fonts/Walkway-Bold.ttf);
 }
@@ -72,7 +73,6 @@ Side Navbar
 }   
  
 .mainlogo{
-    background-image:url("/assets/img/cwbgdk-mob.jpg");
     margin: 5% 5% 0% 5%;
 
 h1{
@@ -717,7 +717,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width:768px) {
 
 .mainlogo{
-    background-image:url("/assets/img/cwbgdk.jpg");
     height: 120px;
     margin: 5% 0% 5% 25%;
     width: 410px;
