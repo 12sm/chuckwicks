@@ -715,7 +715,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .mainlogo{
     height: 120px;
-    margin: 30px 0 20px 430px;
+    margin: 30px 0 20px 25%;
     width: 410px;
     z-index: -10;
     margin-top: 30px;
@@ -723,7 +723,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .mainhome   {
     min-height: inherit;
-    margin-left: 325px;
+    margin-left: 25%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
@@ -734,7 +734,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .main   {
     min-height: inherit;
-    margin-left: 225px;
+    margin-left: 20%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
