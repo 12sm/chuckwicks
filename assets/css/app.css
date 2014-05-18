@@ -72,6 +72,9 @@ Side Navbar
   margin-left: 0px;
 }   
  
+.mainlogo{
+    margin: 5% 5% 0% 5%;
+
 h1{
    color: #FFFFFF;
    font-family: "headerfont";
