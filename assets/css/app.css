@@ -81,11 +81,12 @@ Side Navbar
 }   
  
 .mainlogo{
-    margin: 5% 10% 0% 5%;
+    display: none;
+    /*margin: 5% 10% 0% 5%;
     width: 305px;
     height: 70px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 h1{
