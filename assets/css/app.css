@@ -576,8 +576,7 @@ padding: 15px;
    .topspin-signup{
       background-color: rgba(128,122,128, .5);
       z-index: 1;
-      bottom: 70px;
-      
+      bottom: 90px;  
    }
 
    #e2ma_signup_reset_button{
@@ -844,7 +843,9 @@ font-size: 14px;
 
 .topspin-signup{
       height: 55px;
+      bottom: inherit;
    }
+   
 #signup {
   transition: right 0.4s ease;
   right: -300px;
