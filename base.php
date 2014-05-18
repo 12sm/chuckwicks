@@ -27,7 +27,7 @@
         <?php endif; ?>
         <?php  if ( is_front_page() )    { ?>
             <?get_template_part('templates/header'); ?>
-            <div class="home <?php echo roots_main_class(); ?>" role="main">
+            <div class="main <?php echo roots_main_class(); ?>" role="main">
             </div>
         <?php } else { ?>
             <div class="main <?php echo roots_main_class(); ?>" role="main">

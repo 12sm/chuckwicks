@@ -1,1 +1,1 @@
-<div class="mainlogo"><img src="/assets/img/cwname.png"></div>
+<!--<div class="mainlogo"><img src="/assets/img/cwname.png"></div>-->
