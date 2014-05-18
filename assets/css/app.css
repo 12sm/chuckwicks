@@ -29,7 +29,7 @@ Side Navbar
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.7);
   min-width: 100%;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .nav > li > a {
@@ -48,6 +48,7 @@ Side Navbar
 .navbar-toggle {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
+    z-index: 1000;
 }
 
 .navlogo {
