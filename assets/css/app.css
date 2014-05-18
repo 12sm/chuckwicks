@@ -574,7 +574,6 @@ padding: 15px;
    .topspin-signup{
       background-color: rgba(128,122,128, .5);
       z-index: 1;
-      margin-bottom: 50px;
       
    }
    #e2ma_signup_reset_button{
@@ -648,6 +647,10 @@ footer {
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
+#social-float {
+     z-index:-10;
+}
+
 #social-float>ul{
    display: none;
 }
@@ -678,7 +681,6 @@ color: #99CCFF!important;
    padding: 10px 0px 5px 12px;
    display: block;
    list-style: none;
-   z-index:-10;
 }
 
 /* ==========================================================================
