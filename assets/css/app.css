@@ -353,7 +353,6 @@ width:100%;
 color: black;
 font-size: 18px;
 text-align: center;
-border: 1px #fff solid;
  }
 
 span.thumb-title {
@@ -588,6 +587,7 @@ margin-top: 10px;
   overflow: hidden;
   position: relative;
   width: 100%;
+  border: 1px solid #FFF;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
   -webkit-transition: height 500ms ease-in-out;
