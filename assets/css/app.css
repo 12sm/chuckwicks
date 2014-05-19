@@ -233,6 +233,16 @@ color: #E64C1F!important;
   overflow: hidden;
 }
 
+.newshdiv {
+  display: none;
+}
+
+.newslmobdiv {
+  display: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
 /* ==========================================================================
    Video
    ========================================================================== */
@@ -1049,6 +1059,14 @@ a{
 .newsdiv {
   width: inherit;
   overflow: inherit;
+}
+
+.newshdiv {
+  display: inherit;
+}
+
+.newslmobdiv {
+  display: none
 }
 
 .vid-text{
