@@ -1182,6 +1182,7 @@ footer {
     display: block;
     position: fixed;
     text-align: center;
+    margin-left: inherit;
     max-width: 15%;
     font-size: 11px;
     z-index: 100;
