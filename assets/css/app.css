@@ -284,8 +284,8 @@ body.home .videos{
   height: 0px!important;
   padding-bottom: 105%;
 }
-body.post-type-archive-videos,
-/*body.single-videos {
+/*body.post-type-archive-videos,
+body.single-videos {
 background: rgba(30, 15, 9, .4);
 background-image: url(../img/store-big.jpg);
 background-size: cover;
