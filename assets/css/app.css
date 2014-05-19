@@ -138,14 +138,7 @@ border: 3px solid #FFF;
 a h3.smaller:hover {
 color: #FFF;
 }
-/*=================================================
-  Media
-  ================================================ */
 
-.owl-item img {
-max-height: 150px;
-max-width: 150px;
-}
 
 .post-type-archive-music>.container-fluid{
    padding: 50px 0px;
@@ -188,6 +181,14 @@ max-width: 150px;
   width: auto;
 }
 
+/*=================================================
+  Media
+  ================================================ */
+
+.owl-item img {
+max-height: 150px;
+max-width: 150px;
+}
 
 /* ==========================================================================
    Header
