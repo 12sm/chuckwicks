@@ -24,7 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
     
-    $("#owl_carousel").owlCarousel({
+    $("#owl-carousel").owlCarousel({
        itemsCustom : [
        [0, 2],
        [480, 3],
@@ -74,7 +74,7 @@ var UTIL = {
   photos: {
   init: function() {
   
-  $('.instagram_grid').embedagram({
+  $('.instagram-grid').embedagram({
         instagram_id: 181459823,
         thumb_width: 100,
         limit: 10
