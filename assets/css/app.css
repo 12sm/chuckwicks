@@ -188,7 +188,7 @@ color: #FFF;
 .owl-item img {
 height: 100%;
 width: 100%;
-border: 1px solid #555;
+padding: 3px;
 }
 
 .instagram-grid li {
