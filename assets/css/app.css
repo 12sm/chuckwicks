@@ -72,9 +72,6 @@ Side Navbar
 .wrap, .main, .mainhome {
 
   min-height:350px;
-  z-index: -10;
-  padding-left: 25px;
-
 }
 
 .content .row {
@@ -83,6 +80,7 @@ Side Navbar
 
 .col-xs-6 {
   width: 100%;
+  padding-left: 22px;
 }
  
 .mainlogo{
@@ -1007,6 +1005,7 @@ a{
 
 .col-xs-6 {
   width: inherit;
+  padding-left: inherit;
 }
 
 /*td a {
