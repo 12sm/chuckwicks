@@ -226,11 +226,9 @@ color: #E64C1F!important;
    Content - HOME
    ========================================================================== */
 
-.homenewsdiv {
-  display: none;
-}
-.newsdiv {
-  width: 60%;
+
+.homenewsdiv .newsdiv {
+  width: 100%;
   overflow: hidden;
 }
 
