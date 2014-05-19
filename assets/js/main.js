@@ -24,7 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
     
-    $("#owl-carousel").owlCarousel({
+    $("#media-carousel").owlCarousel({
        itemsCustom : [
        [0, 2],
        [480, 3],
