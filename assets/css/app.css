@@ -227,8 +227,8 @@ color: #E64C1F!important;
    ========================================================================== */
 
 
-.homenewsdiv .newsdiv {
-  width: 100%;
+.homenewsdiv, .newsdiv {
+  width: 60%;
   overflow: hidden;
 }
 
