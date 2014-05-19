@@ -1004,7 +1004,7 @@ a{
 }
 
 .col-xs-6 {
-  width: inherit;
+  width: 60%;
   padding-left: inherit;
 }
 
