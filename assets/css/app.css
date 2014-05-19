@@ -47,9 +47,11 @@ Side Navbar
 .nav-pills > li > a:hover, a:focus {
     color: #9CF;
     background: none;
+      z-index: 100;
 }
 .navbar-toggle {
     background-color: rgba(0, 0, 0, 0.8);
+      z-index: 100;
 }
 
 .navlogo {
@@ -84,7 +86,6 @@ Side Navbar
   width: 100%;
   padding-left: 22px;
   padding-top: 30px;
-  z-index: -10
 }
  
 .mainlogo{
