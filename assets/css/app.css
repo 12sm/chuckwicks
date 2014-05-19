@@ -36,8 +36,8 @@ Side Navbar
 }
 
 .nav > li > a {
-    color: #FFFFFF;
-    font-family: headerfont;
+    color: #83807A;
+    font-family: headerfont; 
     font-size: 27px;
     letter-spacing: 2px;
     text-align: center;
@@ -1033,11 +1033,12 @@ p{
    color: #83807A;
 }
 
-a{
+/*a{
    color: #83807A!important;
-}
+}*/
 
 .nav > li > a {
+    color: #83807A!important;
     padding: 0px;
 }
 
