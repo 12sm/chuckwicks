@@ -116,11 +116,11 @@ h3{
 }*/
 
 p{
-   color: #83807A;
+   color: #FFFFFF;
 }
 
 a{
-   color: #83807A!important;
+   color: #9cF!important;
 }
 
 a:hover {
@@ -1014,6 +1014,14 @@ body {
 /*td a {
 font-size: initial!important;
 }*/
+
+p{
+   color: #83807A;
+}
+
+a{
+   color: #83807A!important;
+}
 
 .nav > li > a {
     padding: 0px;
