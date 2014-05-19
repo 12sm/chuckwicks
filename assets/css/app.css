@@ -743,19 +743,6 @@ font-size: 11px;
 margin-top: 0;
 }
 
-/*.featured-image-home {
-background: transparent url(../img/news-default.jpg);
-background-size: cover;
-background-position: 50%;
-overflow: hidden;
-width: 100%;
-}
-
-.featured-image-home img {
-width:100%;
-max-width:100%;
-height:auto;
-}*/
 .border-box-white>p:hover{
    color: #E64C1F!important;
    border: 3px solid #E64C1F!important;
@@ -794,7 +781,7 @@ padding: 15px;
 /* ==========================================================================
    Email Signup
    ========================================================================== */
-   .content-info {
+.content-info {
     padding: 30px 15px;
     text-align: left;
 }
@@ -892,6 +879,7 @@ margin-left: -22px;
 footer {
   padding-top: 12%;
   z-index: -100;
+  padding-left: 22px;
 }
 
 /* ==========================================================================
@@ -1097,7 +1085,10 @@ font-size: 14px;
       overflow: hidden;
    }
 
-   footer {padding-top: initial;}
+footer {
+  padding-top: initial;
+  padding-left: initial;
+  }
 
    .bit-location{
    width: 23%!important;
