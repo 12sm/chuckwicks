@@ -1033,9 +1033,9 @@ p{
    color: #83807A;
 }
 
-/*a{
-   color: #83807A!important;
-}*/
+a{
+   color: #FFFFFF!important;
+}
 
 .nav > li > a {
     color: #83807A!important;
