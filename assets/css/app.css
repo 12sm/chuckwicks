@@ -80,7 +80,7 @@ Side Navbar
 
 .col-xs-6 {
   width: 100%;
-  margin-left: 22px;
+  padding-left: 22px;
   z-index: -10
 }
  
@@ -1006,7 +1006,6 @@ body {
 
 .col-xs-6 {
   width: 60%;
-  padding-left: inherit;
   z-index: inherit;
 }
 
