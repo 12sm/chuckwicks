@@ -24,19 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
     
-    $("#media-carousel").owlCarousel({
-       itemsCustom : [
-       [0, 2],
-       [480, 3],
-       [768, 4],
-       [1200, 4],
-       [1600, 4]
-       ],
-       navigation : true,
-       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
-       pagination: false,
-       scrollPerPage : true
-      });   
+       
     }
   },
   // Home page
@@ -51,7 +39,38 @@ var Roots = {
       // JavaScript to be fired on the about us page
     }
   },
+media: {
+  init: function() {
 
+    $("#media-carousel").owlCarousel({
+       itemsCustom : [
+       [0, 2],
+       [480, 3],
+       [768, 4],
+       [1200, 4],
+       [1600, 4]
+       ],
+       navigation : true,
+       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       pagination: false,
+       scrollPerPage : true
+      });
+
+  }
+},
+
+photos: {
+  init: function() {
+  
+  $('.instagram-grid').embedagram({
+        instagram_id: 181459823,
+        thumb_width: 100,
+        limit: 10
+      }); 
+  
+  }  
+  }
+};
 
 // The routing fires all common scripts, followed by the page specific scripts.
 // Add additional events for more control over timing e.g. a finalize event
@@ -71,18 +90,7 @@ var UTIL = {
     });
   }
 };
-  photos: {
-  init: function() {
   
-  $('.instagram-grid').embedagram({
-        instagram_id: 181459823,
-        thumb_width: 100,
-        limit: 10
-      }); 
-  
-  }  
-  }
-};
 
 $(document).ready(UTIL.loadEvents);
 
