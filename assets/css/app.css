@@ -188,7 +188,7 @@ color: #FFF;
 .owl-item img {
 height: 100%;
 width: 100%;
-border: 1px solid #FFF;
+border: 1px solid #555;
 }
 
 .instagram-grid li {
@@ -590,9 +590,9 @@ margin-top: 10px;
 .owl-carousel .owl-wrapper-outer{
   overflow: hidden;
   position: relative;
-  margin-top: 10px;
+  margin-top: 15px;
   width: 100%;
-  padding-left: 100%;
+  padding-left: 10%;
   padding-right: 100%;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
