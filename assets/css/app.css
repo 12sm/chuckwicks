@@ -79,6 +79,10 @@ Side Navbar
 .content .row {
   margin-left: 0px;
 }   
+
+.col-xs-6 {
+  width: 100%;
+}
  
 .mainlogo{
     display: none;
@@ -958,6 +962,18 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     margin-bottom: inherit;
 }
 
+body {    
+    background:#000;
+    background-image: url("/assets/img/cwbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+   color: inherit;
+}
+
 .mainlogo{
     display: inherit;
     height: 120px;
@@ -988,16 +1004,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     min-width: 15% !important;
 }
 
-body {    
-    background:#000;
-    background-image: url("/assets/img/cwbg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-a{
-   color: inherit;
+.col-xs-6 {
+  width: inherit;
 }
 
 /*td a {
