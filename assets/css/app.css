@@ -586,7 +586,7 @@ margin-top: 10px;
 .owl-carousel .owl-wrapper-outer{
 overflow: hidden;
 position: relative;
-
+width: 100%;
 border: 1px solid #FFF;
 margin-left: auto;
 margin-right: auto;
