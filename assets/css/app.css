@@ -29,6 +29,10 @@ body.media{
 Side Navbar
 ========================================================================== */
 
+#menu-side-navigation {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.7);
   min-width: 100%;
