@@ -54,7 +54,7 @@ function roots_jquery_local_fallback($src, $handle = null) {
 }
 add_action('wp_head', 'roots_jquery_local_fallback');
 
-function roots_google_analytics() { 
+function roots_google_analytics() { ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -64,8 +64,7 @@ function roots_google_analytics() {
   ga('create', '<?php echo of_get_option('ga_id'); ?>', '<?php echo of_get_option('ga_domain'); ?>');
   ga('send', 'pageview');
 </script>
-<?php } 
+<?php }
 if (of_get_option('ga_id') && !current_user_can('manage_options')) {
   add_action('wp_footer', 'roots_google_analytics', 20);
 }
-?>
