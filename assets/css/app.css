@@ -866,15 +866,17 @@ padding: 15px;
 }
 
 #e2ma_signup_submit_button {
-position: relative;
-top: -45px;
-left: 190px;
-padding: 1px;
-font-family: "webfont";
-background: rgba(0,0,0,0);
-color: #E64C1F!important;
-border: 2px solid #E64C1F!important;
-border-radius: 0px;
+  position: relative;
+  top: -45px;
+  left: 190px;
+  top: -31px;
+  left: 160px;
+  padding: 1px;
+  font-family: "webfont";
+  background: rgba(0,0,0,0);
+  color: #E64C1F!important;
+  border: 2px solid #E64C1F!important;
+  border-radius: 0px;
 
 }
 #e2ma_signup_submit_button:hover{
@@ -951,7 +953,7 @@ color: #99CCFF!important;
    float: right;
    position: relative;
    right: 50%;
-   margin-right:-100px;
+   margin-right:-105px;
    bottom: 5px;
    background-color: rgba(0,0,0, .5);
    padding: 10px 0px 5px 12px;
@@ -1163,7 +1165,12 @@ footer {
   z-index: 1;
   width: 580px;
 }
-
+#e2ma_signup_submit_button {
+  position: relative;
+  top: -45px;
+  left: 190px;
+  }
+  
 #signup-button > h3 {
          padding-top: 0px;
          text-align: right;
