@@ -120,7 +120,7 @@ p{
    color: #FFFFFF;
 }
 
-a{
+.nav a{
    color: #9cF!important;
 }
 
@@ -1033,9 +1033,9 @@ p{
    color: #83807A;
 }
 
-a{
+/*a{
    color: #FFF;
-}
+}*/
 
 .nav > li > a {
     color: #83807A;
