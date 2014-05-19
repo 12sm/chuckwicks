@@ -369,7 +369,7 @@ a span.thumb-title:hover {
 text-decoration:none;
 }
 .thumb-title>h3 {
-font-size: 16px !important;
+font-size: 18px !important;
 text-align: center;
 padding: 0 4% 0 4%;
 color: #FFF;
@@ -588,11 +588,12 @@ margin-top: 10px;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer{
-overflow: hidden;
-position: relative;
-width: 100%;
-margin-left: auto;
-margin-right: auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 100%;
+  padding-right: 100%;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
   -webkit-transition: height 500ms ease-in-out;
