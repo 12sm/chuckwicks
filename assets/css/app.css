@@ -1042,10 +1042,10 @@ a{
     padding: 0px;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+/*.nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     color: #FFF;
-}
+}*/
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #9CF;
