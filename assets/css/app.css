@@ -1078,6 +1078,7 @@ a{
 .newsdiv {
   width: inherit;
   overflow: inherit;
+  padding-bottom: 20px;
 }
 
 .newshdiv {
@@ -1232,7 +1233,7 @@ h1{
    font-size: 62px;
 }
 h2{
-   font-size: 50px;
+   font-size: 40px;
 }
 #myModal{
    margin-top: 1%;
