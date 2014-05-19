@@ -118,9 +118,9 @@ p{
    color: #83807A;
 }
 
-/*a{
-   color: #83807A!important;
-}*/
+a{
+   color: #9cf!important;
+}
 
 a:hover {
   color: #9cf;
@@ -970,9 +970,9 @@ body {
     background-attachment: fixed;
 }
 
-a{
+/*a{
    color: inherit;
-}
+}*/
 
 .mainlogo{
     display: inherit;
