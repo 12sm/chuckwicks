@@ -1,4 +1,4 @@
-<div class="mainlogo"><img src="/assets/img/cwname.png"></div>
+<div class="img-responsive"><img src="/assets/img/cwname.png"></div>
 <!--<header class="banner container" role="banner">
   <div class="row">
     <div class="col-xs-12">
