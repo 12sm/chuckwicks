@@ -12,7 +12,7 @@
     <div class="row signup-row">
         <div id="signup">
           <div class="row">
-            <div class="col-sm-3 col-sm-pull-3 topspin-signup" id="signup-button">
+            <div class="col-sm-3 col-sm-pull-3 topspin-signup" id="signup-button" type="text" placeholder="Name:">
               <h3>JOIN THE<br>MAILING LIST</h3>
             </div>  
             <div class="col-sm-6 col-sm-push-6 topspin-signup">
