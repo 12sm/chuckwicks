@@ -230,9 +230,8 @@ color: #E64C1F!important;
   display: none;
 }
 .newsdiv {
-  display:none;
-  /*width: 30%;
-  overflow: hidden;*/
+  width: 60%;
+  overflow: hidden;
 }
 
 /* ==========================================================================
