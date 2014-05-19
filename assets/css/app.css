@@ -16,7 +16,7 @@ body {
       background-size: cover;
 } 
 body .media{
-  overflow: none!important;
+  overflow: scroll!important;
 }
 
 @font-face{
