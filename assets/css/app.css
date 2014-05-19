@@ -15,6 +15,9 @@ body {
       background-attachment: fixed;
       background-size: cover;
 } 
+body .media{
+  overflow: none!important;
+}
 
 @font-face{
    /*font-family: "webfont";*/
