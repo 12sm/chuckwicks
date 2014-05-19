@@ -87,7 +87,7 @@ Side Navbar
   z-index: -10
 }
  
-.img-responsive{
+.mainlogo{
     margin: 10% 10% 0% 5%;
    /* width: 305px;
     height: 70px;
@@ -989,7 +989,7 @@ body {
    color: inherit;
 }*/
 
-.img-responsive{
+.mainlogo{
     display: inherit;
     height: 120px;
     margin: 5% 0% 3% 40%;
