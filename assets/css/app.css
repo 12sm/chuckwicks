@@ -81,6 +81,7 @@ Side Navbar
 .col-xs-6 {
   width: 100%;
   padding-left: 22px;
+  z-index: -10
 }
  
 .mainlogo{
@@ -891,7 +892,7 @@ margin-left: -22px;
 
 footer {
   padding-top: 12%;
-  z-index: -10;
+  z-index: -100;
 }
 
 /* ==========================================================================
@@ -1006,6 +1007,7 @@ a{
 .col-xs-6 {
   width: 60%;
   padding-left: inherit;
+  z-index: inherit;
 }
 
 /*td a {
