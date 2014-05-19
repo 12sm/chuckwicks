@@ -226,13 +226,13 @@ color: #E64C1F!important;
    Content - HOME
    ========================================================================== */
 
-.homenewsdiv {
+.homenewsdiv .newsdiv {
   display: none;
 }
-.newsdiv {
+/*.newsdiv {
   width: 30%;
   overflow: hidden;
-}
+}*/
 
 /* ==========================================================================
    Video
@@ -1061,7 +1061,7 @@ a{
 
 .newsdiv {
   width: inherit;
-  /*overflow: inherit;*/
+  overflow: inherit;
 }
 
 .vid-text{
