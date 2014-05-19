@@ -1061,7 +1061,7 @@ a{
 
 .newsdiv {
   width: inherit;
-  overflow: inherit;
+  /*overflow: inherit;*/
 }
 
 .vid-text{
