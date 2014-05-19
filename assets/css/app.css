@@ -29,7 +29,6 @@ Side Navbar
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.7);
   min-width: 100%;
-  z-index: 1000;
 }
 
 .nav > li > a {
@@ -48,7 +47,7 @@ Side Navbar
 .navbar-toggle {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
-    z-index: 1000;
+
 }
 
 .navlogo {
@@ -105,7 +104,7 @@ h2{
   font-family: "headerfont";
 }
 
-h3{
+h3{ color:#555555;
    font-family: "headerfont";
 
 }
@@ -879,7 +878,7 @@ margin-left: -22px;
 footer {
   padding-top: 12%;
   z-index: -100;
-  padding-left: 22px;
+  margin-left: 22px;
 }
 
 /* ==========================================================================
@@ -1087,7 +1086,7 @@ font-size: 14px;
 
 footer {
   padding-top: initial;
-  padding-left: initial;
+  margin-left: initial;
   }
 
    .bit-location{
