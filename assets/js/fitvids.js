@@ -1,7 +1,7 @@
 (function($) {
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
-    $(".entry_content-asset").fitVids();
+    $(".entry-content-asset").fitVids();
   });
   
   })(jQuery);
