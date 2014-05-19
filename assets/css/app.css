@@ -1185,7 +1185,6 @@ footer {
    float: right;
    margin-top: 25px;
    position: fixed;
-   left: 1.5%;
    right: 0px;
    margin-right:0px;
    bottom: 0px;
@@ -1199,7 +1198,7 @@ footer {
     display: block;
     position: fixed;
     text-align: center;
-    margin-left: inherit;
+    left: 1.5%;
     max-width: 15%;
     font-size: 11px;
     z-index: 100;
