@@ -90,9 +90,8 @@ Side Navbar
 }
  
 .mainlogo{
-    display: none;
-    /*margin: 5% 10% 0% 5%;
-    width: 305px;
+    margin: 5% 10% 0% 5%;
+   /* width: 305px;
     height: 70px;
     box-sizing: border-box;
     overflow: hidden;*/
@@ -553,14 +552,14 @@ margin-top: 10px;
 /* ==========================================================================
   OWL Carousel
    ========================================================================== */
-/* clearfix */
+/* clearfix 
 .owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
   clear: both;
   visibility: hidden;
   line-height: 0;
-  height: 0;
+  height: 0; */
 }
 /* display none until init */
 .owl-carousel{
