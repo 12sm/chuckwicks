@@ -30,11 +30,14 @@ function roots_scripts() {
   wp_register_script('modernizr', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.7.0.min.js', array(), null, false);
   wp_register_script('roots_scripts', get_template_directory_uri() . '/assets/js/scripts.min.js', array(), '01d073428e4e54f227f8a0a3bad4b804', false);
   wp_register_script('roots_activate', get_template_directory_uri() . '/assets/js/main.js', false, null, false);
+  wp_enqueue_script('fitvids', get_template_directory_uri() . '/assets/js/jquery.fitvids.js', array('jquery'), '', TRUE); 
+  wp_enqueue_script('fitvids-xtra', get_template_directory_uri() . '/assets/js/fitvids.js', array(), '', TRUE);
   wp_enqueue_script('modernizr');
   wp_enqueue_script('jquery');
   wp_enqueue_script('roots_scripts');
   wp_enqueue_script('roots_activate');
 }
+
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);
 
 // http://wordpress.stackexchange.com/a/12450
