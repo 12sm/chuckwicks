@@ -58,7 +58,7 @@ media: {
       
       $('.instagram-grid').embedagram({
         instagram_id: 181459823,
-        thumb_width: 100,
+        thumb_width: 200,
         limit: 12
       }); 
   }
