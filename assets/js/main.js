@@ -24,7 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
     
-    $("#owl-carousel").owlCarousel({
+    $("#owl_carousel").owlCarousel({
        itemsCustom : [
        [0, 2],
        [480, 3],
@@ -69,6 +69,18 @@ var UTIL = {
     $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
       UTIL.fire(classnm);
     });
+  }
+};
+  photos: {
+  init: function() {
+  
+  $('.instagram_grid').embedagram({
+        instagram_id: 181459823,
+        thumb_width: 100,
+        limit: 10
+      }); 
+  
+  }  
   }
 };
 
