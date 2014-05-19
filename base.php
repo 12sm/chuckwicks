@@ -30,7 +30,6 @@
             <div class="mainhome <?php echo roots_main_class(); ?>" role="main">
             <?php include roots_template_path(); ?>
             </div>  
-        <? } ?>
         <?php } else { ?>
             <div class="main <?php echo roots_main_class(); ?>" role="main">
             <?php include roots_template_path(); ?>
