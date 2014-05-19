@@ -168,6 +168,11 @@ color: #FFF;
 
 .alert, .alert-warning {display: none;}
 
+.entry-content-asset {
+  height: auto;
+  width: auto;
+}
+
 
 /* ==========================================================================
    Header
