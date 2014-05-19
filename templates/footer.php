@@ -32,7 +32,7 @@
     </ul>
     </div>
               
-    <div class="col-xs-2 credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+    <div class="col-xs-2 credits"><p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
     </div>
     </div>
   </div>
