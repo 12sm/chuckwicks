@@ -285,7 +285,7 @@ body.home .videos{
   padding-bottom: 105%;
 }
 body.post-type-archive-videos,
-body.single-videos {
+/*body.single-videos {
 background: rgba(30, 15, 9, .4);
 background-image: url(../img/store-big.jpg);
 background-size: cover;
@@ -293,7 +293,7 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 padding-top: 9%;
 
-}
+}*/
 .video-content {
 margin-top: -50%;
 margin-bottom: 35%;
