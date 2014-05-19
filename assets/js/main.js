@@ -53,7 +53,8 @@ media: {
        navigation : true,
        navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
        pagination: false,
-       scrollPerPage : true
+       scrollPerPage : true,
+       items: 3
       });
 
   }
