@@ -584,10 +584,12 @@ margin-top: 10px;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer{
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  border: 1px solid #FFF;
+overflow: hidden;
+position: relative;
+width: 520px;
+border: 1px solid #FFF;
+margin-left: auto;
+margin-right: auto;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
   -webkit-transition: height 500ms ease-in-out;
