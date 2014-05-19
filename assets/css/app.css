@@ -1052,6 +1052,7 @@ font-size: initial!important;
 
 .newsdiv {
   width: inherit;
+  overflow: inherit;
 }
 
 .vid-text{
