@@ -541,7 +541,7 @@ margin-top: 10px;
   OWL Carousel
    ========================================================================== */
 /* clearfix */
-.owl-carousel .owl-wrapper:after {
+/*.owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
   clear: both;
@@ -550,7 +550,7 @@ margin-top: 10px;
   height: 0;
 }
 /* display none until init */
-.owl-carousel{
+/*.owl-carousel{
   display: none;
   position: relative;
   width: 100%;
@@ -591,12 +591,12 @@ margin-top: 10px;
 }
 
 /* mouse grab icon */
-.grabbing { 
+/*.grabbing { 
     cursor:url(grabbing.png) 8 8, move;
 }
 
 /* fix */
-.owl-carousel  .owl-wrapper,
+/*.owl-carousel  .owl-wrapper,
 .owl-carousel  .owl-item{
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility:    hidden;
@@ -635,26 +635,27 @@ opacity: 0.5;
 
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
-.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+/*.owl-theme .owl-controls.clickable .owl-buttons div:hover{
   filter: Alpha(Opacity=100);/*IE7 fix*/
-  opacity: 1;
+ /* opacity: 1;
   text-decoration: none;
 }
 
 /* Styling Pagination*/
 
-.owl-theme .owl-controls .owl-page{
+/*.owl-theme .owl-controls .owl-page{
   display: inline-block;
   zoom: 1;
-  *display: inline;/*IE7 life-saver */
+  *display: inline;
 }
-.owl-theme .owl-controls .owl-page span{
+  /*IE7 life-saver */
+/*.owl-theme .owl-controls .owl-page span{
   display: block;
   width: 12px;
   height: 12px;
   margin: 5px 7px;
   filter: Alpha(Opacity=50);/*IE7 fix*/
-  opacity: 0.5;
+  /*opacity: 0.5;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -664,12 +665,12 @@ opacity: 0.5;
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
   filter: Alpha(Opacity=100);/*IE7 fix*/
-  opacity: 1;
+ /* opacity: 1;
 }
 
 /* If PaginationNumbers is true */
 
-.owl-theme .owl-controls .owl-page span.owl-numbers{
+/*.owl-theme .owl-controls .owl-page span.owl-numbers{
   height: auto;
   width: auto;
   color: #FFF;
@@ -679,7 +680,7 @@ opacity: 0.5;
   -moz-border-radius: 30px;
   border-radius: 30px;
 }
-
+*/
 /* ==========================================================================
    Posts
    ========================================================================== */
