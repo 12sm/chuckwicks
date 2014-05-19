@@ -29,6 +29,7 @@ Side Navbar
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.7);
   min-width: 100%;
+  z-index: 100;
 }
 
 .nav > li > a {
@@ -52,6 +53,7 @@ Side Navbar
 
 .navlogo {
   display:none;
+  z-index: 100
 }
 
 
@@ -781,7 +783,7 @@ padding: 15px;
    Email Signup
    ========================================================================== */
 .content-info {
-    padding: 30px 15px;
+    padding: 30px 15px 0px 40px;
     text-align: left;
 }
 
