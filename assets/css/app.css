@@ -345,7 +345,6 @@ overflow-y: auto;
 
 
 .video-thumbnail-internal {
-padding: 0px 0px 56% 0px;
 width:100%;
 color: black;
 font-size: 18px;
@@ -988,7 +987,7 @@ body {
     margin: 5% 0% 3% 40%;
     width: 410px;
     z-index: -10;
-  }
+    }
 
 .mainhome   {
     min-height: inherit;
