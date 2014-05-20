@@ -1051,7 +1051,7 @@ a{
 }
 
 #menu-side-navigation {
-    background-color: inherit;
+    background-color: initial;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
