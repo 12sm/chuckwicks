@@ -97,3 +97,5 @@ $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
 
+$("#id_email").attr("placeholder", "Email");
+$("#id_member_field_postal_code").attr("placeholder", "Zip Code");
