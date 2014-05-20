@@ -1050,10 +1050,9 @@ a{
     padding: 0px;
 }
 
-/*.nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    color: #FFF;
-}*/
+#menu-side-navigation {
+    background-color: inherit;
+}
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background: none;
@@ -1170,7 +1169,7 @@ footer {
   top: -45px;
   left: 190px;
   }
-  
+
 #signup-button > h3 {
          padding-top: 0px;
          text-align: right;
