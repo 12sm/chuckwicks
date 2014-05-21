@@ -855,8 +855,8 @@ padding: 15px;
       text-align: center;
    }
    .e2ma_signup_form_label{
-      color: #FFF;
-      text-align: center;
+      color: #FFF !important;
+      text-align: center !important;
    }
 
    .e2ma_signup_form_required_asterix {
