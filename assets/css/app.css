@@ -1220,14 +1220,20 @@ footer {
  }
 
 /* Medium devices (desktops, 992px and up) */
+
+@media (min-width:992px) {
+.container {
+  width: 850px;
+}
+
 .main, .mainhome{
   left: 10%;
 }
 
-@media (min-width:992px) {
    .video-body {
 padding-bottom: 45%;
 }
+
 .container-fluid>*{
    margin-left: inherit;
    margin-right: inherit;
@@ -1237,16 +1243,6 @@ h1{
 }
 h2{
    font-size: 40px;
-}
-#myModal{
-   margin-top: 1%;
-}
-.tumblr_post>img {
-width: 115%;
-margin: 0% -10%;
-}
-.tumblr_post{
-   max-width: 24%;
 }
 
 .tour-body, .blog-home-body, .media-body {
@@ -1274,21 +1270,17 @@ display: none;
 .container {
   width: 1000px;
 }
-
 .main, .mainhome {
 left: 12%;
-}
-
+  }
 }
 
 /* Extra Large devices (large desktops, 1450px and up) */
 @media (min-width:1450px) {
-
- 
 .main,.mainhome {
 min-height: inherit;
 left: 20%;
-}
+  }
 }
 
 @media (min-width:1800px) {
