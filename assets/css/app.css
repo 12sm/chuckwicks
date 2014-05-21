@@ -1268,9 +1268,9 @@ display: none;
 /* Large Devices (1100px and up) */
 
 @media (min-width:1100px) {
-.container {
+/*.container {
   width: 650px;
-}
+}*/
 .main, .mainhome {
 left: 20%;
   }
