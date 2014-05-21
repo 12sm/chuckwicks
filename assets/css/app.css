@@ -980,6 +980,10 @@ body {
     z-index: -10;
     }
 
+.container-fluid {
+  max-width: 500px;
+}
+
 .mainhome   {
     min-height: inherit;
     left: 28%;
