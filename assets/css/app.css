@@ -584,14 +584,27 @@ margin-top: 10px;
 .owl-controls .owl-buttons div{
   cursor: pointer;
 }
-.owl-controls {
+.owl-theme .owl-controls .owl-buttons div{
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+  margin: 5px;
+  padding: 30px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  background: #000;
+}
+
+/*.owl-controls {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+}*/
 
 /* mouse grab icon */
 .grabbing { 

@@ -51,8 +51,7 @@ media: {
        [1600, 3]
        ],
        navigation : true,
-       navigationText: ['<img src="/assets/img/vidleft.png">', '<i class="fa fa-arrow-circle-right"></i>'],
-       /*navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],*/
+       navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
        pagination: false,
        scrollPerPage : true
       });
