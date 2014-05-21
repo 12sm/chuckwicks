@@ -855,8 +855,13 @@ padding: 15px;
       text-align: center;
    }
    .e2ma_signup_form_label{
-      /*display: none;*/
+      color: #FFF;
+      text-align: center;
    }
+
+   .e2ma_signup_form_required_asterix {
+    display: none;
+}
    #id_email{
       width: 100%;
       
