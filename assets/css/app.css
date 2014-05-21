@@ -1179,8 +1179,7 @@ footer {
 }
 
 .e2ma_signup_form_element {
-  padding-top:1px !important;
-  padding-bottom: 2px !important;
+  padding-bottom: 3px !important;
 }
 
 #signup:hover, #signup:focus, .hover_effect{
