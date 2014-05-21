@@ -1278,6 +1278,7 @@ display: none;
 .main, .mainhome {
 left: 10%;
 }
+
 }
 
 /* Extra Large devices (large desktops, 1450px and up) */
@@ -1286,11 +1287,11 @@ left: 10%;
 .container {
   width: 1100px;
    } 
-} 
-
+ 
 .main,.mainhome {
 min-height: inherit;
 left: 15%;
+}
 }
 
 /*Ipad Landscape*/
