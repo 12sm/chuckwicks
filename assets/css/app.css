@@ -838,12 +838,13 @@ padding: 15px;
   top: -31px;
   left: 160px;
   padding: 1px;
-  font-family: "headerfont";
+  font-family: Verdana,sans-serif;
   font-weight: bold;
   background: rgba(0,0,0,0);
   color: #E64C1F!important;
   border: 2px solid #E64C1F!important;
   border-radius: 0px;
+  letter-spacing: 1px;
 
 }
 #e2ma_signup_submit_button:hover{
