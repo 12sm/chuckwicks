@@ -981,7 +981,7 @@ body {
     }
 
 .container {
-width: 600px;
+width: 650px;
 }
 
 .container-fluid {
@@ -990,7 +990,7 @@ width: 600px;
 
 .mainhome   {
     min-height: inherit;
-    left: 22%;
+    left: 25%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
@@ -1000,7 +1000,7 @@ width: 600px;
 
 .main   {
     min-height: inherit;
-    left: 22%;
+    left: 25%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
