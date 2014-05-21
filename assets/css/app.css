@@ -1175,7 +1175,11 @@ footer {
 
    .e2ma_signup_form_label {
     text-align: left !important;
-    margin-left: -20px;
+    padding-top: 0px !important;
+}
+
+.e2ma_signup_form_element {
+  padding-bottom: 1px;
 }
 
 #signup:hover, #signup:focus, .hover_effect{
