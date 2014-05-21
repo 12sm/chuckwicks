@@ -1276,7 +1276,7 @@ display: none;
 }
 
 .main, .mainhome {
-left: 10%;
+left: 12%;
 }
 
 }
@@ -1284,15 +1284,19 @@ left: 10%;
 /* Extra Large devices (large desktops, 1450px and up) */
 @media (min-width:1450px) {
 
-.container {
-  width: 1100px;
-   } 
  
 .main,.mainhome {
 min-height: inherit;
-left: 15%;
+left: 20%;
 }
 }
+
+@media (min-width:1750px) {
+  .container {
+  width: 1100px;
+   } 
+ }
+
 
 /*Ipad Landscape*/
 @media only screen 
