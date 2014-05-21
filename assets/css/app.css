@@ -1124,10 +1124,11 @@ footer {
     padding-top: inherit;
 }
 
-.topspin-signup{
-      height: 55px;
-      bottom: inherit;
-   }
+.topspin-signup {
+    height: 70px;
+    bottom: inherit;
+    margin-top: 15px;
+}
 
 #signup {
   transition: right 0.4s ease;
