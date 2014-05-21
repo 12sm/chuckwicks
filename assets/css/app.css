@@ -981,7 +981,7 @@ body {
     }
 
 .container {
-width: 650px;
+width: 620px;
 }
 
 .container-fluid {
@@ -1000,7 +1000,7 @@ width: 650px;
 
 .main   {
     min-height: inherit;
-    left: 25%;
+    left: 22%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
