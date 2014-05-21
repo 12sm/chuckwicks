@@ -1223,11 +1223,11 @@ footer {
 
 @media (min-width:992px) {
 .container {
-  width: 850px;
+  width: 750px;
 }
 
 .main, .mainhome{
-  left: 10%;
+  left: 20%;
 }
 
    .video-body {
@@ -1269,7 +1269,7 @@ display: none;
 
 @media (min-width:1100px) {
 .container {
-  width: 700px;
+  width: 750px;
 }
 .main, .mainhome {
 left: 20%;
