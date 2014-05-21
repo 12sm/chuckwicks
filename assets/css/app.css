@@ -354,6 +354,7 @@ width:100%;
 color: black;
 font-size: 18px;
 text-align: center;
+padding: 15px;
  }
 
 span.thumb-title {
@@ -625,7 +626,7 @@ height: 0px;
   display: inline-block;
   zoom: 1;
   margin: 2px -40px 0 -40px;
-  padding: 73px 10px !important;
+  padding: 67px 15px !important;
   font-size: 22px;
   background: #000;
 }
