@@ -904,6 +904,148 @@ padding: 15px;
 #e2ma_signup_image_container 
 {display:none;}   
 
+#e2ma_signup_submit_button{ 
+    width: 100%!important;
+    background-color: Rgba(0,0,0,0);
+    border-color: Rgba(0,0,0,0);
+    color:#f0f0f0!important;
+    font-size:20px!important;
+    letter-spacing:.3em!important;
+    position:relative;
+    z-index:10;
+    padding: 0px 0px;
+    text-transform: uppercase;
+    margin-top:14px;
+    text-shadow: 0px 1px 10px #000;
+    
+}  
+
+#e2ma_signup_submit_button submit{
+    box-shadow: 10px 10px 10px;
+}
+
+#e2ma_signup {
+width: 100%;
+margin:10px 0;
+}
+#e2ma_signup_form{
+    margin: 10px 0;
+    width: 100%;
+}
+#e2ma_signup_reset_button{
+    display: none!important;
+}
+
+
+#bottominput {
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align:center;
+    
+    
+}
+
+.form-control { 
+        padding:6px 80px;
+    text-align: center;
+}
+
+#box2 {
+    margin-top:20px;
+    position:relative;
+    z-index:9;
+    padding: 1%;
+    background:Rgba(0,0,0,.50);
+    
+}
+
+#album{
+        margin: 5% 25%;
+        }
+
+h1 { font-family:"Helvetica-Light";
+    font-style:normal;
+    font-size:10pt;
+    color:#f0f0f0;
+    position:relative;
+    z-index:6;
+    text-align:center;
+    margin: 0px !important;
+    letter-spacing: .05em;
+    float:right;
+    text-shadow: 1px 1px 3px #000;
+}
+.itunes {
+    margin-top:10px;
+    text-align:center;
+}
+
+.form-group {
+    margin-bottom:0px;
+}
+
+.socials {
+padding: 0px;
+}
+
+
+.e2ma_signup_form_row {
+        border:0px!important;
+    border-radius: 0px!important;
+    padding:0px!important;
+}
+.e2ma_signup_form_element{
+    height: 35px!important;
+
+}
+input {
+background: Rgba(0,0,0,.50);
+border: 0px!important;
+border-radius: 0px!important;
+width: 100%!important;
+height: 100%!important;
+font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", "Garamond", "Times New Roman", serif!important;
+font-size: 1em
+}
+.e2ma_signup_form input[type=text]{
+font-family: "Helvetica"!important;
+font-size: 12px!important;
+color: #fff!important;
+text-align: center;
+}
+
+#top-form {
+    background:Rgba(0,0,0,.50);
+        border:0px;
+}
+
+ul li {display:inline;}
+
+.e2ma_signup_image_container{
+    display: none!important;
+}
+#e2ma_signup > div:nth-child(6) {
+display: none!important;
+}
+#e2ma_signup > div:nth-child(7) {
+display: none!important;
+}
+.e2ma_signup_form_required_footnote{
+    display: none;
+}
+#e2ma_signup_form_button_row{
+    width: 100%;
+}
+#e2ma_signup_message{
+    display: none;
+}
+.e2ma_signup_form_label{
+    display: none;
+}
+.socials{
+    text-align: center;
+}
+    
 
 /* ==========================================================================
    Footer
