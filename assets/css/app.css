@@ -890,13 +890,7 @@ padding: 15px;
    }
    .e2ma_signup_form_label{
       /*display: none;*/
-   }
-   #id_email{
-      width: 100%;
-      
-   }  
-#id_member_field_postal_code, {
-  width: 100%;
+  
 }
 #id_member_field_first_name,
 #e2ma_signup_image_container {display:none;}   
