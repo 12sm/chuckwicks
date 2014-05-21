@@ -1270,7 +1270,7 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } /* removes the "Continued" link from the Excerpt */
 
-/* Large devices (large desktops, 1200px and up) */
+/* Large devices (large desktops, 1200px and up)
 @media (min-width:1200px) {
 .tumblr_text_post{
    max-width: 24%;
