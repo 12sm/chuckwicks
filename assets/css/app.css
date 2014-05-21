@@ -995,7 +995,6 @@ width: 600px;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
     padding-right: auto;
-    padding-bottom: 30px;
     box-sizing: border-box;
 }
 
@@ -1006,7 +1005,6 @@ width: 600px;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
     padding-right: auto;
-    padding-bottom: 30px;
     min-width: 15% !important;
 }
 
@@ -1232,6 +1230,7 @@ footer {
 
 .main, .mainhome{
   left: 20%;
+  padding-bottom: 30px;
 }
 
    .video-body {
@@ -1275,9 +1274,6 @@ display: none;
 .container {
   width: 750px;
 }
-.main, .mainhome {
-left: 20%;
-  }
 } 
 
 @media (min-width:1200px) {
