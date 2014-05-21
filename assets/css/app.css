@@ -1266,12 +1266,12 @@ display: none;
 } /* removes the "Continued" link from the Excerpt */
 
 /* Large Devices (1300px and up) */
-@media (min-width:1300px) {
+@media (min-width:1450px) {
 .container {
   width: 900px;
 }
 .main, .mainhome {
-left: 14%;
+left: 20%;
   }
 }
 
