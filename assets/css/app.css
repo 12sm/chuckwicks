@@ -294,16 +294,7 @@ body.home .videos{
   height: 0px!important;
   padding-bottom: 105%;
 }
-/*body.post-type-archive-videos,
-body.single-videos {
-background: rgba(30, 15, 9, .4);
-background-image: url(../img/store-big.jpg);
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
-padding-top: 9%;
 
-}*/
 .video-content {
 margin-top: -50%;
 margin-bottom: 35%;
@@ -328,6 +319,7 @@ background-repeat: no-repeat;
 background-position: center;
 margin-top: 5px;
 }
+
 .vid-nav{
   margin-top: 15px!important;
 }
@@ -383,21 +375,10 @@ padding: 0 4% 0 4%;
 color: #FFF;
 }
 
-   
-/* =======================
-   Photos Section [Home]
-   ======================= */
-   
-
-/*#tubular-container{
-  z-index: -10000!important;
-}*/
 
 /* ==========================================================================
    Tour Page
    ========================================================================== */
-
-   
 .bit-description-links a:hover,
 .bit-date a:hover, 
 .bit-venue a:hover,
@@ -435,19 +416,6 @@ display: none;
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
-/* ==========================================================================
-   Music
-   ========================================================================== 
-.music-content{
-   margin-top: 4%;
-}
-
-body.post-type-archive-music .music-body{
-   padding-top: 3%;
-}
-.content>.row{
-   margin-top: 25px;
-}
 
 
 /* ==========================================================================
@@ -515,8 +483,6 @@ display: none;
 /* ==========================================================================
    Video
    ========================================================================== */
-
-
 video#bgvid {
 position: fixed;
 top: 0;
