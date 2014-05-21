@@ -857,7 +857,7 @@ padding: 15px;
    .e2ma_signup_form_label{
       color: #FFF !important;
       text-align: center !important;
-      font-size: 12px;
+      font-size: 12px !important;
    }
 
    .e2ma_signup_form_required_asterix {
