@@ -857,6 +857,7 @@ padding: 15px;
    .e2ma_signup_form_label{
       color: #FFF !important;
       text-align: center !important;
+      font-size: 12px;
    }
 
    .e2ma_signup_form_required_asterix {
@@ -1157,7 +1158,7 @@ footer {
    }
 
 .e2ma_signup_form_row{
-    margin-top: -7px;
+    margin-top: -20px;
     text-align: left;
     width: 210px;
     padding: 7px;
@@ -1165,6 +1166,7 @@ footer {
 
    .e2ma_signup_form_label {
     text-align: left !important;
+    margin-left: -20px;
 }
 
 #signup:hover, #signup:focus, .hover_effect{
