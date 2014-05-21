@@ -1265,22 +1265,34 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } /* removes the "Continued" link from the Excerpt */
 
-/* Large Devices (1300px and up) */
+/* Large Devices (1100px and up) */
+
+@media (min-width:1100px) {
+.container {
+  width: 600px;
+}
+.main, .mainhome {
+left: 20%;
+  }
+} 
+
+@media (min-width:1200px) {
+.container {
+  width: 700px;
+}
+}  
+
 
 @media (min-width:1300px) {
 .container {
   width: 800px;
 }
-.main, .mainhome {
-left: 20%;
-  }
 }  
 
 @media (min-width:1450px) {
 .container {
   width: 900px;
 }
-
 }
 
 /* Extra Large devices (large desktops, 1650px and up) */
@@ -1288,8 +1300,6 @@ left: 20%;
 .container {
   width: 1000px;
 }
-
-
 }
 
 @media (min-width:1800px) {
