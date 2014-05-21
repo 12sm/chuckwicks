@@ -584,18 +584,7 @@ margin-top: 10px;
 .owl-controls .owl-buttons div{
   cursor: pointer;
 }
-.owl-theme .owl-controls .owl-buttons div{
-  color: #FFF;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;/*IE7 life-saver */
-  margin: 5px;
-  padding: 30px 10px;
-  font-size: 12px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  background: #000;
-}
+
 
 /*.owl-controls {
   -webkit-user-select: none;
@@ -631,18 +620,15 @@ height: 0px;
 }
 
 
-.owl-theme .owl-controls .owl-buttons div {
-color: #FFF;
-display: inline-block;
-zoom: 1;
-margin: 5px;
-padding: 3px 10px;
-font-size: 40px;
--webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;
-filter: Alpha(Opacity=50);
-opacity: 0.5;
+.owl-theme .owl-controls .owl-buttons div{
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+  margin: 5px;
+  padding: 30px 10px !important;
+  font-size: 12px;
+  background: #000;
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
