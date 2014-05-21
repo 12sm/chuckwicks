@@ -1268,7 +1268,7 @@ display: none;
 /* Large Devices (1300px and up) */
 @media (min-width:1300px) {
 .container {
-  width: 1000px;
+  width: 900px;
 }
 .main, .mainhome {
 left: 14%;
@@ -1277,6 +1277,10 @@ left: 14%;
 
 /* Extra Large devices (large desktops, 1650px and up) */
 @media (min-width:1650px) {
+.container {
+  width: 1000px;
+}
+
 .main,.mainhome {
 min-height: inherit;
 left: 20%;
