@@ -51,7 +51,7 @@ media: {
        [1600, 3]
        ],
        navigation : true,
-       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="icon-chevron-right icon-white"></i>'],
        pagination: false,
        scrollPerPage : true
       });
