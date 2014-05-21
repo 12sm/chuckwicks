@@ -986,7 +986,7 @@ body {
 
 .mainhome   {
     min-height: inherit;
-    left: 28%;
+    left: 20  %;
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
@@ -1276,17 +1276,21 @@ left: 12%;
 }
 
 /* Extra Large devices (large desktops, 1450px and up) */
-@media (min-width:1450px) {
+@media (min-width:1600px) {
 .main,.mainhome {
 min-height: inherit;
-left: 20%;
+left: 12%;
   }
 }
 
 @media (min-width:1800px) {
   .container {
   width: 1100px;
-   } 
+   }
+.main,.mainhome {
+min-height: inherit;
+left: 20%;
+  }    
  }
 
 
