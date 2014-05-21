@@ -817,7 +817,7 @@ padding: 15px;
 
 /* ==========================================================================
    Email Signup
-   ========================================================================== 
+   ========================================================================== */
 .content-info {
     padding: 30px 15px 0px 40px;
     text-align: left;
@@ -891,18 +891,15 @@ padding: 15px;
    .e2ma_signup_form_label{
       /*display: none;*/
    }
-#id_email{
-  width: 100%;
-  font-color: #000;  
+   #id_email{
+      width: 100%;
+      
    }  
 #id_member_field_postal_code, {
   width: 100%;
-  font-color: #000;
 }
-
 #id_member_field_first_name,
-#e2ma_signup_image_container 
-{display:none;}   
+#e2ma_signup_image_container {display:none;}   
 
 
 /* ==========================================================================
