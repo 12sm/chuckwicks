@@ -1007,7 +1007,6 @@ body {
 }
 
 .col-xs-6 {
-  width: 60%;
   z-index: inherit;
   padding-top:inherit;
   padding-top: 20px;
@@ -1221,8 +1220,8 @@ footer {
  }
 
 /* Medium devices (desktops, 992px and up) */
-.main, {
-  left: 15%
+.main, .mainhome{
+  left: 10%
 }
 
 @media (min-width:992px) {
