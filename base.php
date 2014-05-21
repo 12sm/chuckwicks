@@ -27,12 +27,16 @@
         <?php endif; ?>
         <?php  if ( is_front_page() ) { ?>
             <?php get_template_part('templates/header'); ?>
+            <div class="container-fluid">
             <div class="mainhome <?php echo roots_main_class(); ?>" role="main">
             <?php include roots_template_path(); ?>
-            </div>  
+            </div> 
+            </div> 
         <?php } else { ?>
+            <div class="container-fluid">
             <div class="main <?php echo roots_main_class(); ?>" role="main">
             <?php include roots_template_path(); ?>
+            </div>
             </div>
         <? } ?>
         <!-- /.main -->
