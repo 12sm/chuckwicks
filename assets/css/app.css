@@ -1143,21 +1143,28 @@ footer {
   }
 
 #signup-button > h3 {
-         padding-top: 0px;
          text-align: right;
       }
+
 #signup-button{
-      margin-top: 15px:
-      height: 55px;
+      margin-top: 15px;
+      height: 70px;
       }
+
 .e2ma_signup_form {
    margin-top: 15px;
    }
+
 .e2ma_signup_form_row{
     margin-top: -7px;
     text-align: left;
     width: 210px;
+    padding: 7px;
    }
+
+   .e2ma_signup_form_label {
+    text-align: left !important;
+}
 
 #signup:hover, #signup:focus, .hover_effect{
    right: 0px!important;
