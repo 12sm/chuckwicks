@@ -1266,13 +1266,21 @@ display: none;
 } /* removes the "Continued" link from the Excerpt */
 
 /* Large Devices (1300px and up) */
-@media (min-width:1450px) {
+
+@media (min-width:1300px) {
 .container {
-  width: 900px;
+  width: 800px;
 }
 .main, .mainhome {
 left: 20%;
   }
+}  
+
+@media (min-width:1450px) {
+.container {
+  width: 900px;
+}
+
 }
 
 /* Extra Large devices (large desktops, 1650px and up) */
@@ -1281,10 +1289,7 @@ left: 20%;
   width: 1000px;
 }
 
-.main,.mainhome {
-min-height: inherit;
-left: 20%;
-  }
+
 }
 
 @media (min-width:1800px) {
