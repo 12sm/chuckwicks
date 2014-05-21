@@ -376,37 +376,6 @@ color: #FFF;
 }
 
 
-/* ==========================================================================
-   Tour Page
-   ========================================================================== */
-.bit-description-links a:hover,
-.bit-date a:hover, 
-.bit-venue a:hover,
-.bit-location a:hover,
-.bit-tickets a:hover,
-.bit-rsvp a:hover {
-  color:#777!important;
-}
-
-.bit-location {width:23%;}
-
-.bit-venue, .bit-date, .bit-description-links,
-.bit-location, .bit-tickets {
-  font-size:20px!important;
-  padding:10px 0px;
-}
-
-#bit-events tr {
-line-height: 3em;
-}
-td a {
-font-size: 13px!important;
-}
-
-body.tour .tour-page h3 {
-display: none;
-}
-
 
 /* ==========================================================================
    Primary Content
@@ -478,6 +447,38 @@ display: none;
 }
 .smaller{
    font-size: 36px;
+}
+
+.bit-description-links a:hover,
+.bit-date a:hover, 
+.bit-venue a:hover,
+.bit-location a:hover,
+.bit-tickets a:hover,
+.bit-rsvp a:hover {
+  color:#777!important;
+}
+
+.bit-location {width:23%;}
+
+.bit-venue, .bit-date, .bit-description-links,
+.bit-location, .bit-tickets {
+  font-size:20px!important;
+  padding:10px 0px;
+}
+
+#bit-events tr {
+line-height: 3em;
+}
+td a {
+font-size: 13px!important;
+}
+
+body.tour .tour-page h3 {
+display: none;
+}
+
+.btn, .btn-primary {
+  
 }
 
 /* ==========================================================================
@@ -828,7 +829,7 @@ padding: 15px;
    }
 
 .e2ma_signup_form input[type="text"], .e2ma_signup_form textarea, .e2ma_signup_form select {
-  margin: -20px !important;
+  /*margin: -20px !important;*/
 }
 
 #e2ma_signup_submit_button {
@@ -1068,7 +1069,7 @@ a{
 
 .newsdiv {
   width: inherit;
-  overflow: inherit;
+  overflow: hidden;
   padding-bottom: 20px;
 }
 
