@@ -1278,6 +1278,7 @@ display: none;
 .main, .mainhome {
 left: 10%;
 }
+}
 
 /* Extra Large devices (large desktops, 1450px and up) */
 @media (min-width:1450px) {
