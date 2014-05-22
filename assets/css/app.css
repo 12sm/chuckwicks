@@ -986,7 +986,7 @@ body {
 .mainlogo{
     display: inherit;
     height: 120px;
-    margin: 3% 0 1% 0;
+    margin: 3% 0 2% 0;
     /* width: 410px; */
     z-index: -10;
     max-width: 42%;
