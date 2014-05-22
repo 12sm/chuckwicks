@@ -1300,7 +1300,6 @@ display: none;
 .mainhome {
   left: 20%;
 }
-
 .main { 
   left: 12%;
 }
@@ -1310,20 +1309,17 @@ display: none;
 .mainhome {
   left: 17%;
 }
-
 .main { 
   left: 9%;
 } 
-
 .mainlogo {
   left: 11%;
 }
-
 } 
 
 @media (min-width:1300px) {
 .mainlogo {
-  left: 13%;
+  left: 12%;
 }
 }  
 
