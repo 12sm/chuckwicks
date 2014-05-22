@@ -1000,10 +1000,10 @@ width: 620px;
   max-width: 70%;
 }*/
 
-.mainhome   {
-    min-height: inherit;
-    left: 25%;
-    position: relative;
+.main, .mainhome {
+    left: 10%;
+    padding-bottom: 30px;
+    max-width: 41%;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
     padding-right: auto;
@@ -1242,7 +1242,7 @@ footer {
 .main, .mainhome {
   left: 10%;
   padding-bottom: 30px;
-  max-width: 43%;
+  max-width: 41%;
 } 
 
 .video-body {
