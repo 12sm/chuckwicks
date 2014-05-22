@@ -467,7 +467,7 @@ td a {
 font-size: 13px!important;
 }
 
-a .bit-events-data {
+a.bit-events-data {
   color: #E9E9E9;
 }
 
