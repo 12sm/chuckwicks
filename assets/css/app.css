@@ -421,7 +421,7 @@ tr th{
 }
 
 .bit-buy-tix {
-color: #E64C1F;
+color: #FFFFFF;
 text-decoration: none;
 font-weight: bold;
 }
@@ -473,12 +473,12 @@ display: none;
 
 button {
   margin-top: 10px;
-  padding: 1px;
+  padding: 2px;
   font-family: "headerfont";
   font-weight: bold;
   background: rgba(0,0,0,0);
-  color: #E64C1F!important;
-  border: 2px solid #E64C1F!important;
+  color: #FFFFFF!important;
+  border: 2px solid #FFFFFF!important;
   border-radius: 0px;
   letter-spacing: 1px;
   
