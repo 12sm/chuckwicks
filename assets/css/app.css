@@ -468,7 +468,7 @@ font-size: 13px!important;
 }
 
 a.bit-events-data {
-  color: #E9E9E9;
+  color: #E9E9E9!important;
 }
 
 body.tour .tour-page h3 {
