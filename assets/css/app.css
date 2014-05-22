@@ -75,8 +75,7 @@ Side Navbar
 
 .wrap {
   padding:0px;
-  margin-bottom: 40px;
-  margin:0px;
+  margin: 0 0 0 -6px;
 }
 
 .wrap, .main, .mainhome {
