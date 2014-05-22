@@ -28,7 +28,7 @@
       <li class="menu-"><a href="http://instagram.com/chuckwicks" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
       <li class="menu-"><a href="http://www.youtube.com/user/chuckwicksmusic" target="_blank"><i class="fa fa-youtube-play fa-2x"></i></a></li>
       <li class="menu-"><a href="https://twitter.com/chuckwicksmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-      <li class="menu-"><a href="http://smarturl.it/usagain" target="_blank"><img src="/assets/img/itunes.png" onmouseover="/assets/img/itunes-active.png'" onmouseout="/assets/img/itunes.png"></a></i></a></li>
+      <li class="menu-"><a href="http://smarturl.it/usagain" target="_blank"><img src="/assets/img/itunes.png" onmouseover="this.src='/assets/img/itunes-active.png'" onmouseout="this.src='/assets/img/itunes.png'"></a></i></a></li>
     </ul>
     </div>
               
