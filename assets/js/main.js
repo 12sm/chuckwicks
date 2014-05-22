@@ -51,10 +51,9 @@ media: {
        [1600, 3]
        ],
        navigation : true,
-       navigationText: ['<i class="icon-chevron-right icon-white"></i>','<i class="fa fa-chevron-right"></i>'],
+       navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
        pagination: false,
        scrollPerPage : true
-       
       });
       
       $('.instagram-grid').embedagram({
