@@ -1239,9 +1239,9 @@ footer {
 
 @media (min-width:992px) {
 .main, .mainhome {
-  left: 9%;
+  left: 10%;
   padding-bottom: 30px;
-  max-width: 42%;
+  max-width: 43%;
 } 
 
 .main, .mainhome{
@@ -1249,8 +1249,8 @@ footer {
   padding-bottom: 30px;
 }
 
-   .video-body {
-padding-bottom: 45%;
+.video-body {
+  padding-bottom: 45%;
 }
 
 .container-fluid>*{
@@ -1292,7 +1292,7 @@ display: none;
 }
 } 
 */
-@media (min-width:1200px) {
+@media (min-width:1250px) {
 .main, .mainhome {
   left: 9%;
   padding-bottom: 30px;
