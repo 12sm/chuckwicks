@@ -996,7 +996,19 @@ body {
    margin-right: inherit;
 }
 
-.main, .mainhome {
+
+.mainhome {
+    left: 200px;
+    padding-bottom: 30px;
+    max-width: 41%;
+    padding-left: auto;
+    padding-right: auto;
+    box-sizing: border-box;
+}
+.maincontent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main,  {
     left: 200px;
     padding-bottom: 30px;
     max-width: 41%;
@@ -1005,6 +1017,7 @@ body {
     padding-right: auto;
     box-sizing: border-box;
 }
+
 
 /*.main   {
     min-height: inherit;
