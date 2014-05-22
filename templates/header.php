@@ -1,12 +1,10 @@
 <div class="container-fluid">
-      <div class="row">
-          <div class="col-xs-6" role="main">
-            <div class="mainlogo">
-              <img src="/assets/img/cwname.png" class="img-responsive">
-            </div>
-          </div> 
-        </div>
-    </div>
+  <div class="mainlogo col-xs-6" role="main">
+       <div class="col-xs-12">
+         <img src="/assets/img/cwname.png" class="img-responsive">
+      </div>
+  </div>
+</div>
 
 <!--<header class="banner container" role="banner">
   <div class="row">
