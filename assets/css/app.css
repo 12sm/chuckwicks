@@ -76,6 +76,7 @@ Side Navbar
 .wrap {
   padding:0px;
   margin-bottom: 40px;
+  margin:0px;
 }
 
 .wrap, .main, .mainhome {
@@ -1237,9 +1238,11 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width:992px) {
-/*.container {
-  width: 750px;
-}*/
+.main, .mainhome {
+  left: 9%;
+  padding-bottom: 30px;
+  max-width: 42%;
+} 
 
 .main, .mainhome{
   left: 20%;
@@ -1288,13 +1291,15 @@ display: none;
   width: 700px;
 }
 } 
-
+*/
 @media (min-width:1200px) {
-.container {
-  width: 750px;
-}
-}  
-
+.main, .mainhome {
+  left: 9%;
+  padding-bottom: 30px;
+  max-width: 42%;
+} 
+} 
+/*
 
 @media (min-width:1300px) {
 .container {
