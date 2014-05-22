@@ -16,7 +16,7 @@
     }
   ?>-->
 
-  <div class="wrap container" role="document">
+  <div class="wrap container-fluid" role="document">
     <div class="content row">
         <?php if (roots_display_sidenavbar()) : ?>
             <div class="<?php echo roots_sidenavbar_class(); ?>">
