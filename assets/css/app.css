@@ -816,7 +816,7 @@ padding: 15px;
       }
 
    .topspin-signup{
-      background-color: rgba(128,122,128, .5);
+      background-color: rgba(170,170,170, .8);
       z-index: 1;
       bottom: 90px;  
    }
@@ -1154,8 +1154,9 @@ footer {
   }
 
 #signup-button{
-      margin-top: 15px;
-      height: 70px;
+  margin-top: 15px;
+  height: 70px;
+  width: 200px;
       }
 
 .e2ma_signup_form {
