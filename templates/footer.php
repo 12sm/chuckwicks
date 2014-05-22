@@ -13,7 +13,7 @@
         <div id="signup">
           <div class="row">
             <div class="col-sm-3 col-sm-pull-3 topspin-signup" id="signup-button" type="text" placeholder="Name:">
-              <h3>JOIN THE<br>MAILING LIST</h3>
+              <h3>  JOIN THE<br>MAILING LIST</h3>
             </div>  
             <div class="col-sm-6 col-sm-push-6 topspin-signup">
               <link href="https://app.e2ma.net/css/signup.sml.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1762603/8258488ac6fb4eb4b4a6cd35bd68c9c0/1736041/?v=a"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1762603/1736041/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
@@ -25,8 +25,8 @@
   <div id="social-float" class="row social-nav">
     <ul id="menu-social-navigation" class="">
       <li class="menu-"><a href="https://www.facebook.com/chuckwicks" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
-      <li class="menu-"><a href="https://twitter.com/chuckwicksmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
       <li class="menu-"><a href="http://instagram.com/chuckwicks" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+      <li class="menu-"><a href="https://twitter.com/chuckwicksmusic" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
       <li class="menu-"><a href="http://www.youtube.com/user/chuckwicksmusic" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
       <li class="menu-"><a href="http://smarturl.it/usagain" target="_blank"><i class="fa fa-apple fa-2x"></i></a></li>
     </ul>

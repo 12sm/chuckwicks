@@ -800,11 +800,13 @@ padding: 15px;
    }
    #signup-button > h3 {
       left: 0px;
-      font-size: 16px;
+      font-size: 19px;
       text-align: center;
-      margin-top: 15px;
+      margin-top: 10px;
       color: #fff;
       padding-top: 5px;
+      letter-spacing: 1px;
+      margin-right: 25px;
    }
    #signup{
       right: 0px;
@@ -1140,7 +1142,7 @@ footer {
 
 #signup {
   transition: right 0.4s ease;
-  right: -300px;
+  right: -275px;
   position: fixed;
   z-index: 1;
   width: 580px;
@@ -1150,10 +1152,6 @@ footer {
   top: -40px;
   left: 190px;
   }
-
-#signup-button > h3 {
-         text-align: right;
-      }
 
 #signup-button{
       margin-top: 15px;
