@@ -991,13 +991,10 @@ body {
     z-index: -10;
     }
 
-/*.container {
-width: 620px;
+.container-fluid>*{
+   margin-left: inherit;
+   margin-right: inherit;
 }
-
-.container-fluid {
-  max-width: 70%;
-}*/
 
 .main, .mainhome {
     left: 21%;
