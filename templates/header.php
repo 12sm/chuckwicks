@@ -1,6 +1,8 @@
 <div class="row">
   <div class="mainlogo col-xs-6" role="main">
+    <div class="logocenter"
          <img src="/assets/img/cwname.png" class="img-responsive">
+    </div>
   </div>
 </div>
 
