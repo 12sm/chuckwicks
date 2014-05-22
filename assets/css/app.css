@@ -471,7 +471,7 @@ body.tour .tour-page h3 {
 display: none;
 }
 
-.btn, .btn-primary {
+button {
   margin-top: 10px;
   padding: 1px;
   font-family: "headerfont";
