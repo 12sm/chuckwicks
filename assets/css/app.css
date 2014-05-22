@@ -1008,7 +1008,7 @@ body {
 .mainhome {
     left: 200px;
     padding-bottom: 30px;
-    max-width: 41%;
+    max-width: 38%;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
     padding-right: auto;
@@ -1316,22 +1316,20 @@ display: none;
 } 
 
 .mainlogo {
-  left: 14%;
+  left: 11%;
 }
 
 } 
 
-/*
-
 @media (min-width:1300px) {
-.container {
-  width: 800px;
+.mainlogo {
+  left: 13%;
 }
 }  
 
 @media (min-width:1450px) {
-.container {
-  width: 900px;
+.mainlogo {
+  left: 14%;
 }
 }
 
