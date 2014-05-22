@@ -1,8 +1,6 @@
-<div class="container-fluid">
+<div class="row">
   <div class="mainlogo col-xs-6" role="main">
-       <div class="col-xs-12">
          <img src="/assets/img/cwname.png" class="img-responsive">
-      </div>
   </div>
 </div>
 
