@@ -986,7 +986,7 @@ body {
 .mainlogo{
     display: inherit;
     height: 120px;
-    margin: 3% 0;
+    margin: 3% 0 1% 0;
     /* width: 410px; */
     z-index: -10;
     max-width: 42%;
@@ -995,7 +995,7 @@ body {
     }
 
 .logocenter {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1316,10 +1316,10 @@ display: none;
   left: 9%;
 } 
 
-/*.mainlogo {
+.mainlogo {
   left: 12%;
   padding: 0 9%;
-}*/
+}
 
 } 
 
