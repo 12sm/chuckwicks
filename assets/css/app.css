@@ -991,13 +991,13 @@ body {
     z-index: -10;
     }
 
-.container {
+/*.container {
 width: 620px;
 }
 
 .container-fluid {
   max-width: 70%;
-}
+}*/
 
 .mainhome   {
     min-height: inherit;
