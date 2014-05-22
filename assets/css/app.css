@@ -1005,8 +1005,8 @@ body {
    margin-right: inherit;
 }
 
-.main, .mainhome {
-    left: 145px;
+.mainhome {
+    left: 200px;
     padding-bottom: 30px;
     max-width: 41%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -1015,15 +1015,15 @@ body {
     box-sizing: border-box;
 }
 
-/*.main   {
-    min-height: inherit;
-    left: 22%;
-    position: relative;
+.main   {
+    left: 145px;
+    padding-bottom: 30px;
+    max-width: 41%;
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: auto;
     padding-right: auto;
-    min-width: 15% !important;
-}*/
+    box-sizing: border-box;
+}
 
 .col-xs-6 {
   z-index: inherit;
