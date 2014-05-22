@@ -1010,7 +1010,7 @@ width: 620px;
     box-sizing: border-box;
 }
 
-.main   {
+/*.main   {
     min-height: inherit;
     left: 22%;
     position: relative;
@@ -1018,7 +1018,7 @@ width: 620px;
     padding-left: auto;
     padding-right: auto;
     min-width: 15% !important;
-}
+}*/
 
 .col-xs-6 {
   z-index: inherit;
@@ -1239,7 +1239,13 @@ footer {
 
 @media (min-width:992px) {
 
-.main, .mainhome {
+.mainhome {
+  left: 18%;
+  padding-bottom: 30px;
+  max-width: 42%;
+}
+
+.main,  {
   left: 10%;
   padding-bottom: 30px;
   max-width: 41%;
@@ -1289,7 +1295,14 @@ display: none;
 } 
 */
 @media (min-width:1250px) {
-.main, .mainhome {
+
+.mainhome {
+  left: 17%;
+  padding-bottom: 30px;
+  max-width: 42%;
+}
+
+.main { 
   left: 9%;
   padding-bottom: 30px;
   max-width: 42%;
