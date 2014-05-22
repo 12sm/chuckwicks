@@ -997,7 +997,7 @@ body {
 }
 
 .main, .mainhome {
-    left: 21%;
+    left: 200px;
     padding-bottom: 30px;
     max-width: 41%;
     background-color: rgba(0, 0, 0, 0.7);
