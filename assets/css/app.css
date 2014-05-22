@@ -1235,7 +1235,7 @@ footer {
 }
  }
 
-/* Medium devices (desktops, 992px and up) */
+/* Medium devices (desktops, 992px and up-) */
 
 @media (min-width:992px) {
 .main, .mainhome {
