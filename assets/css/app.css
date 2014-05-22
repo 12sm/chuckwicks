@@ -190,14 +190,8 @@ color: #FFF;
 }
 
 /*=================================================
-  Media
+  Instagram
   ================================================ */
-
-.owl-item img {
-height: 100%;
-width: 100%;
-padding: 3px;
-}
 
 .instagram-grid li {
 float: left;
@@ -354,7 +348,6 @@ width:100%;
 color: black;
 font-size: 18px;
 text-align: center;
-padding: 15px;
  }
 
 span.thumb-title {
@@ -587,6 +580,12 @@ margin-top: 10px;
 }
 
 
+.owl-item img {
+  height: 80%;
+  width: 80%;
+  padding: 3px;
+}
+
 /*.owl-controls {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -625,8 +624,8 @@ height: 0px;
   color: #666;
   display: inline-block;
   zoom: 1;
-  margin: 18px -40px 0 -40px;
-  padding: 61px 15px !important;
+  margin: 2px -30px 0 -30px;
+  padding: 55px 15px !important;
   font-size: 22px;
   background: #000;
 }
