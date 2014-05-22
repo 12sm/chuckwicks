@@ -991,7 +991,7 @@ body {
     z-index: -10;
     max-width: 42%;
     text-align: center;
-    left: 9%;
+    left: 120px;
     }
 
 .logocenter {
@@ -1257,6 +1257,10 @@ footer {
   max-width: 41%;
 } 
 
+.mainlogo {
+  left: 10%
+}
+
 .video-body {
   padding-bottom: 45%;
 }
@@ -1312,6 +1316,11 @@ display: none;
 .main { 
   left: 9%;
 } 
+
+.mainlogo {
+  left: 7%
+}
+
 } 
 /*
 
