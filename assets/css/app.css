@@ -463,11 +463,9 @@ display: none;
 #bit-events tr {
 line-height: 3em;
 }
-td a {
-font-size: 13px!important;
-}
 
-a.bit-events-data {
+td a {
+  font-size: 14px!important;
   color: #E9E9E9!important;
 }
 
