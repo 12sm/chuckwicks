@@ -1316,12 +1316,13 @@ display: none;
   left: 9%;
 } 
 
-.mainlogo {
+/*.mainlogo {
   left: 12%;
   padding: 0 9%;
-}
+}*/
 
 } 
+
 /*
 
 @media (min-width:1300px) {
