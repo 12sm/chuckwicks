@@ -1239,13 +1239,13 @@ footer {
 @media (min-width:992px) {
 
 .mainhome {
-  left: 18%;
+  left: 21%;
   padding-bottom: 30px;
   max-width: 42%;
 }
 
 .main,  {
-  left: 10%;
+  left: 21%;
   padding-bottom: 30px;
   max-width: 41%;
 } 
@@ -1285,26 +1285,25 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } /* removes the "Continued" link from the Excerpt */
 
-/* Large Devices (1000px and up) 
+/* Large Devices (1000px and up) */
 
-@media (min-width:1000px) {
-.container {
-  width: 700px;
-}
-} 
-*/
-@media (min-width:1250px) {
-
+@media (min-width:1050px) {
 .mainhome {
-  left: 17%;
-  padding-bottom: 30px;
-  max-width: 42%;
+  left: 20%;
 }
 
 .main { 
   left: 9%;
-  padding-bottom: 30px;
-  max-width: 42%;
+}
+} 
+
+@media (min-width:1250px) {
+.mainhome {
+  left: 17%;
+}
+
+.main { 
+  left: 9%;
 } 
 } 
 /*
