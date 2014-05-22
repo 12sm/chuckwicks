@@ -1238,16 +1238,12 @@ footer {
 /* Medium devices (desktops, 992px and up-) */
 
 @media (min-width:992px) {
+
 .main, .mainhome {
   left: 10%;
   padding-bottom: 30px;
   max-width: 43%;
 } 
-
-.main, .mainhome{
-  left: 20%;
-  padding-bottom: 30px;
-}
 
 .video-body {
   padding-bottom: 45%;
