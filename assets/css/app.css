@@ -130,9 +130,9 @@ p{
    color: #FFFFFF;
 }
 
-/*.content a{
-   color: #9cF!important;
-}*/
+a {
+  color: #E6E6E6;
+}
 
 a:hover {
   color: #9cf;
