@@ -794,6 +794,10 @@ background-color: rgba(255, 255, 255, 0.7);
 padding: 15px;	
 }
 
+.addthis_default_style .addthis_separator, .addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m, .addthis_default_style .at300bs {
+float: left;
+}
+
 
 /* ==========================================================================
    Email Signup
