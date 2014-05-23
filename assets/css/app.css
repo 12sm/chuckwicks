@@ -1303,6 +1303,9 @@ display: none;
 .main { 
   left: 12%;
 }
+.credits:{
+  margin-left: -10px;
+} 
 } 
 
 @media (min-width:1250px) {
@@ -1315,11 +1318,16 @@ display: none;
 .mainlogo {
   left: 11%;
 }
+.credits:{
+  margin-left: -15px;
 } 
 
 @media (min-width:1300px) {
 .mainlogo {
   left: 12%;
+}
+.credits {
+  margin-right: -18px;
 }
 }  
 
