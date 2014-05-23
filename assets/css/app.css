@@ -1242,7 +1242,9 @@ footer {
 
  .credits:{
   margin-left: 25px;
+}
 } 
+
 
 /* Medium devices (desktops, 992px and up-) */
 
@@ -1301,6 +1303,7 @@ display: none;
 .credits:{
   margin-left: -22px;
 }
+}
 
 /* Large Devices (1000px and up) */
 
@@ -1329,6 +1332,7 @@ display: none;
 .credits:{
   margin-left: -15px;
 } 
+}
 
 @media (min-width:1300px) {
 .mainlogo {
