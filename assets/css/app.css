@@ -465,6 +465,10 @@ display: none;
 line-height: 3em;
 }
 
+.bit-events, .bit-events-narrow {
+   overflow: visible;
+   } 
+
 td a {
   font-size: 14px!important;
   color: #E9E9E9!important;
@@ -475,7 +479,7 @@ display: none;
 }
 
 button {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 5px;
   font-weight: bold;
   background: rgba(0,0,0,0);
