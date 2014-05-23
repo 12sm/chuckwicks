@@ -462,12 +462,12 @@ display: none;
 }
 
 #bit-events tr {
-line-height: 3em;
+  line-height: 3em;
 }
 
 .bit-events, .bit-events-narrow {
-   overflow: visible;
-   } 
+   overflow: visible!important;
+  } 
 
 td a {
   font-size: 14px!important;
