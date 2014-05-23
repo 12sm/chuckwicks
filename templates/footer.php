@@ -31,8 +31,9 @@
       <li class="menu-"><a href="http://smarturl.it/usagain" target="_blank"><img src="/assets/img/itunes.png" onmouseover="this.src='/assets/img/itunes-active.png'" onmouseout="this.src='/assets/img/itunes.png'"></a></i></a></li>
     </ul>
     </div>
-              
+     <div class="row">         
     <div class="col-xs-2 credits"><p><center>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></center></p>
+    </div>
     </div>
     </div>
   </div>
