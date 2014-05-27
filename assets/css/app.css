@@ -152,12 +152,6 @@ color: #FFF;
 .post-type-archive-music>.container-fluid{
    padding: 50px 0px;
 }
-/*body.post-type-archive-music{
-   background-image: url(../img/music-bg.jpg);
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
-}*/
 
 .container-fluid>*{
    margin-left: 10px;
@@ -262,122 +256,11 @@ color: #E64C1F!important;
 }
 
 /* ==========================================================================
-   Video
-   ========================================================================== */
-.slides .video {
-background-repeat: no-repeat;
-background-size: cover;
-padding: 1% 0px 0.4% 0px;
-}
-.video-back {
-height: 0px;
-width: 100%;
-padding-bottom: 60%;
-display: block;
-position: relative;
-top: 0px;
-background-size: cover;
-margin-top: -11%;
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
-  opacity: 0.7;
-}
-body.home .videos{
-  height: 0px!important;
-  padding-bottom: 105%;
-}
-
-.video-content {
-margin-top: -50%;
-margin-bottom: 35%;
-}
-
-.vid-desc>p{
-  font-size: 14px;
-  line-height: 1.1;
-}
-.vid-back {
-padding: 3% 1%;
-background-image: url(../img/Black-Background.jpg);
-background-size: contain;
-border: solid 3px rgba(0,0,0, .1);
-border-radius: 5px;
-}
-
-.vid-line{
-height: 20px!important;
-background-image: url(../img/vid-line.png);
-background-repeat: no-repeat;
-background-position: center;
-margin-top: 5px;
-}
-
-.vid-nav{
-  margin-top: 15px!important;
-}
-
-.vid-desc{
-  text-align: center;
- }
- .vid-read{
-  text-align: center;
-  font-family: "viva-std";
- }
- 
- .video-description {
-background: transparent;
-overflow: scroll;
-height: auto;
-margin: 0px;
-overflow-x: hidden;
-overflow-y: auto; 
- }
- 
- .video-description h1 {font-size:35px; font-family: "viva-std";}
- 
- 
- .video-page-featured-video {
-  margin-top:4%; 
- }
-
-
-.video-thumbnail-internal {
-width:100%;
-color: black;
-font-size: 18px;
-text-align: center;
- }
-
-span.thumb-title {
-font-family: arial, helvetica, sans-serif;
-color: #4E3E3C;
-font-size: 13px;
-line-height: 1.1em;
-clear: left;
-float: none;
-}
-
-a span.thumb-title:hover {
-text-decoration:none;
-}
-.thumb-title>h3 {
-font-size: 18px !important;
-text-align: center;
-padding: 0 4% 0 4%;
-color: #FFF;
-}
-
-
-
-/* ==========================================================================
    Primary Content
    ========================================================================== */
 
 
-/* Gallery Shortcode */
+/* Gallery Shortcode 
 .gallery-row { padding: 15px 0; }
 
 
@@ -385,6 +268,7 @@ color: #FFF;
 /* ==========================================================================
    Tour
    ========================================================================== */
+
 .tour-body{
 }
 
@@ -399,10 +283,6 @@ color: #FFF;
 .bit-description-links{
       display: none;
 }
-   
-   /* .bit-date{
-      width: 9%;
-   } */
    
 td.bit-date {
 width: 90px!important;
@@ -493,7 +373,117 @@ button {
 /* ==========================================================================
    Video
    ========================================================================== */
-video#bgvid {
+
+.slides .video {
+background-repeat: no-repeat;
+background-size: cover;
+padding: 1% 0px 0.4% 0px;
+}
+.video-back {
+height: 0px;
+width: 100%;
+padding-bottom: 60%;
+display: block;
+position: relative;
+top: 0px;
+background-size: cover;
+margin-top: -11%;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  opacity: 0.7;
+}
+body.home .videos{
+  height: 0px!important;
+  padding-bottom: 105%;
+}
+
+.video-content {
+margin-top: -50%;
+margin-bottom: 35%;
+}
+
+.vid-desc>p{
+  font-size: 14px;
+  line-height: 1.1;
+}
+.vid-back {
+padding: 3% 1%;
+background-image: url(../img/Black-Background.jpg);
+background-size: contain;
+border: solid 3px rgba(0,0,0, .1);
+border-radius: 5px;
+}
+
+.vid-line{
+height: 20px!important;
+background-image: url(../img/vid-line.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-top: 5px;
+}
+
+.vid-nav{
+  margin-top: 15px!important;
+}
+
+.vid-desc{
+  text-align: center;
+ }
+ .vid-read{
+  text-align: center;
+  font-family: "viva-std";
+ }
+ 
+.video-description {
+  background: transparent;
+  overflow: scroll;
+  height: auto;
+  margin: 0px;
+  overflow-x: hidden;
+  overflow-y: auto; 
+ }
+ 
+.video-description h1 {
+  font-size:35px; font-family: "viva-std";
+  }
+ 
+ 
+.video-page-featured-video {
+  margin-top:4%; 
+ }
+
+
+.video-thumbnail-internal {
+  width:100%;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+ }
+
+span.thumb-title {
+  font-family: arial, helvetica, sans-serif;
+  color: #4E3E3C;
+  font-size: 13px;
+  line-height: 1.1em;
+  clear: left;
+  float: none;
+}
+
+a span.thumb-title:hover {
+text-decoration:none;
+}
+
+.thumb-title>h3 {
+font-size: 18px !important;
+text-align: center;
+padding: 0 4% 0 4%;
+color: #FFF;
+}
+
+/*video#bgvid {
 position: fixed;
 top: 0;
 left:0;
@@ -506,7 +496,7 @@ height: auto;
 z-index: -10;
 background: url(polina.jpg) no-repeat;
 background-size: cover;
-}
+}*/
 
 .vid-layer-top{
    z-index: 100;
@@ -524,20 +514,21 @@ padding-top: 15%;
    margin-top: 10px;
 }
 .border-box-white>p{
-color: #fff;
-border: 3px solid #fff;
-padding: 2px;
-text-align: center;
-font-size: 18px;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 2px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .vid-icon {
    transition: color .3s ease;
-text-align: center;
-color: #fff;
-position: static;
-margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  position: static;
+  margin-top: 10px;
 }
+
 .vid-icon:hover{
    transition: color .3s ease;
    color: #E64C1F!important;
@@ -550,6 +541,7 @@ margin-top: 10px;
 /* ==========================================================================
   OWL Carousel
    ========================================================================== */
+ 
  clearfix 
 .owl-carousel .owl-wrapper:after {
   content: ".";
@@ -569,8 +561,10 @@ margin-top: 10px;
 .owl-carousel .owl-wrapper{
   display: none;
   position: relative;
+  left: -5px;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
+
 .owl-carousel .owl-wrapper-outer{
   overflow: hidden;
   position: relative;
@@ -645,8 +639,13 @@ height: 0px;
   background: #000;
 }
 
-.owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
-.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:0px;}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  position:absolute; left:0px;
+  }
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  position:absolute; right:6px;
+  }
 
 
 /* Clickable class fix problem with hover on touch devices */
