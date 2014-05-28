@@ -192,6 +192,7 @@ color: #FFF;
 .instagram-grid {
   width: 100%!important;
   height: auto;
+  list-style-type: none;
 }
 
 /*.instagram-grid li {
