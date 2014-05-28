@@ -23,9 +23,12 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-    
-       
+    $('.hover').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');      
     }
+    $("#id_email").attr("placeholder", "Email");
+    $("#id_member_field_postal_code").attr("placeholder", "Zip Code");
   },
   // Home page
   home: {
@@ -39,7 +42,7 @@ var Roots = {
       // JavaScript to be fired on the about us page
     }
   },
-media: {
+  media: {
   init: function() {
 
     $("#media-carousel").owlCarousel({
@@ -61,14 +64,11 @@ media: {
         thumb_width: 200,
         limit: 12
       }); 
-  }
-},
+    }
+  },
 
 photos: {
   init: function() {
-  
-  
-  
   }  
   }
 };
@@ -95,8 +95,7 @@ var UTIL = {
 
 $(document).ready(UTIL.loadEvents);
 
-$("#id_email").attr("placeholder", "Email");
-$("#id_member_field_postal_code").attr("placeholder", "Zip Code");
+
 
 })(jQuery); // Fully reference jQuery after this point.
 
