@@ -1377,6 +1377,9 @@ line-height: inherit !important;
 .mainlogo {
   left: 14%;
 }
+td a {
+  line-height: inherit !important;
+}
 }
 
 /* Extra Large devices (large desktops, 1650px and up) 
