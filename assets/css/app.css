@@ -303,10 +303,6 @@ color: #E64C1F!important;
 	margin-left: -10px;
 }
 
-.bit-venue{
-      display: none;
-}
-
 .bit-description-links{
       display: none;
 }
@@ -361,6 +357,11 @@ display: none;
 }
 
 .bit-location {width:23%;}
+
+
+.bit-venue {
+      display: none!!important;
+}
 
 .bit-venue, .bit-date, .bit-description-links,
 .bit-location, .bit-tickets {
@@ -1337,7 +1338,7 @@ footer {
 }
 
 .bit-venue {
-  display: block;
+  display: block !important;
 }
 
 .lineup {
