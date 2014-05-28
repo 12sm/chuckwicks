@@ -302,7 +302,7 @@ color: #E64C1F!important;
 }
 
 .bit-venue{
-      display: none !important;
+      display: none;
 }
 
 .bit-description-links{
@@ -1303,7 +1303,7 @@ footer {
 }
 
 .bit-venue {
-  display: block !important;
+  display: block;
 }
 
 .lineup {
