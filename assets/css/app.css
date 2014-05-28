@@ -1314,10 +1314,10 @@ height: auto;
 
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
-} /* removes the "Continued" link from the Excerpt */
+} 
 
 .bit-venue{
-      display: block !important;
+  display: inherit !important;
    }
 
 .lineup {
