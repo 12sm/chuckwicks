@@ -69,7 +69,6 @@ var Roots = {
   },
 single_videos: {
   init: function() {
-    console.log('single_videos is firing')
     $("#media-carousel").owlCarousel({
        itemsCustom : [
        [0, 2],
