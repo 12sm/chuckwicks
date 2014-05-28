@@ -1175,10 +1175,6 @@ footer {
   margin-left: initial;
   }
 
-.lineup {
-  display: none !important;
-}
-
 .col-md-6 .bands-in-town-section { 
   width: 100%;
   }
@@ -1340,6 +1336,10 @@ display: none;
 
 .bit-venue {
   display: block !important;
+}
+
+.lineup {
+  display: none !important;
 }
 
 .credits {
