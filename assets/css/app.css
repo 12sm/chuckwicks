@@ -836,6 +836,8 @@ float: left;
     height: 0;
     padding-top: 50px;
 }
+
+
 /*iPad fix */
 #signup:hover, #signup:focus, .hover_effect {
    right: 0px!important;
@@ -1015,6 +1017,32 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
+
+
+@media (max-width:768px) {
+
+.signup-row {
+    height: 0;
+    padding-top: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.e2ma_signup_form {
+width: auto!important;
+}
+
+.e2ma_signup_form input[type=text], .e2ma_signup_form textarea, .e2ma_signup_form select {
+border: none;
+font-family: "headerfont";
+font-size: 15px;
+width: 65px;
+color: #5C5C5C;
+padding: 3%;
+border-radius: 5px;
+}
+
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
