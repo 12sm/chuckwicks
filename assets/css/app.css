@@ -198,7 +198,7 @@ color: #FFF;
   float: left;
 }*/
 
-.instagram-grid ul {
+.instagram-grid>ul {
   list-style-type: none;
 }
 
