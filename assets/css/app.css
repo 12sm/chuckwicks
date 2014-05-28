@@ -302,7 +302,7 @@ color: #E64C1F!important;
 }
 
 .bit-venue{
-      display: none;
+      display: none !important;
 }
 
 .bit-description-links{
