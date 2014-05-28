@@ -1102,22 +1102,15 @@ padding: 30px 15px !important;
 background: transparent;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 h1.bands-in-town-h1 {
 margin-top: -10px;
 }
 
-=======
->>>>>>> 95a85185fe0030391d479b8287086f2b06c7b6fa
->>>>>>> FETCH_HEAD
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
-=======
->>>>>>> FETCH_HEAD
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
