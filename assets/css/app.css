@@ -1259,9 +1259,6 @@ footer {
  .credits:{
   margin-left: 25px;
 }
-.bit-venue{
-  display: inherit !important;
-}
 } 
 
 
@@ -1315,7 +1312,9 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } 
 
-
+.bit-venue {
+  display: block !important;
+}
 
 .lineup {
   display: none !important;
