@@ -1553,6 +1553,9 @@ and (orientation : portrait) {
 .e2ma_signup_form input[type=text], .e2ma_signup_form textarea, .e2ma_signup_form select {
   padding: none;
 }
+#social-float>ul {
+  right: -15px;
+}
 }
 
 
