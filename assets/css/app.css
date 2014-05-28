@@ -189,9 +189,14 @@ color: #FFF;
 /*=================================================
   Instagram
   ================================================ */
-.instagram-grid {
+.instagram-grid ul {
+  list-style-type: none;
+  }
 
+.instagram-grid li {
+  float: left;
 }
+/*overwrite*/
 
 /* ==========================================================================
    Header
@@ -762,6 +767,7 @@ margin-top: 0;
    color: #E64C1F!important;
    border: 3px solid #E64C1F!important;
 }
+
 .blog-post-square {
 margin: 30px 0px 100px 0px;
 }
@@ -965,7 +971,7 @@ color: #99CCFF!important;
   max-width: 100%;
   height: auto; 
   }
-
+  
 .alignleft { float: left; }
 .alignright { float: right; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
@@ -1139,7 +1145,6 @@ font-size: 14px;
 
 .bit-venue{
       display: block!important;
-      overflow: hidden;
    }
 
 footer {
