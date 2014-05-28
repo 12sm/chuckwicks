@@ -869,21 +869,22 @@ float: left;
 }
 
 #e2ma_signup_submit_button {
-  position: relative;
-  top: -45px;
-  left: 190px;
-  top: -31px;
-  left: 160px;
-  padding: 1px;
-  font-family: "headerfont";
-  font-weight: bold;
-  background: rgba(0,0,0,0);
-  color: #E64C1F!important;
-  border: 2px solid #E64C1F!important;
-  border-radius: 0px;
-  letter-spacing: 1px;
-
+position: relative;
+top: -45px;
+left: 190px;
+top: -31px;
+left: 160px;
+padding: 1px;
+text-transform: uppercase;
+font-family: "headerfont";
+font-weight: bold;
+background: rgba(0,0,0,0);
+color: #A7A7A7!important;
+border: none;
+background-color: #303030;
+letter-spacing: 1px;
 }
+
 #e2ma_signup_submit_button:hover{
    color: #fff!important;
    border: 2px solid #fff!important;
