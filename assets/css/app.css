@@ -1424,6 +1424,11 @@ margin-left: 5px;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
+
+.bit-venue {
+  display: none !important;
+}
+
 }
 
 
