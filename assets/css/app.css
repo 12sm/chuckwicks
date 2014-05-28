@@ -1009,7 +1009,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 body {    
     background:#000;
     background-image: url("/assets/img/cwbg.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
