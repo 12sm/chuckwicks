@@ -1110,6 +1110,10 @@ margin-top: -30px;
 text-align: center;
 }
 
+.instagram-grid li {
+float: none;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
