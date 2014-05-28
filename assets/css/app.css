@@ -189,18 +189,15 @@ color: #FFF;
 /*=================================================
   Instagram
   ================================================ */
-<<<<<<< HEAD
-.instagram-grid ul {
+
+.instagram-grid {
   list-style-type: none;
-  }
+}
 
 .instagram-grid li {
   float: left;
-=======
-.instagram-grid {
-  list-style-type: none;
->>>>>>> 0b731ea04ea8bdff209626f32ad886e452fbf500
 }
+
 /*overwrite*/
 
 /* ==========================================================================
