@@ -360,6 +360,8 @@ display: none;
 td a {
   font-size: 14px!important;
   color: #E9E9E9!important;
+  text-align: center !important;
+  
 }
 
 body.tour .tour-page h3 {
