@@ -1329,20 +1329,6 @@ footer {
 }
  }
 
-.bit-events td {
-   height: inherit !important;
-}
-
-.bit-location {
-   width: 23%!important;
-}
-
-.bit-venue {
-  display: block !important;
-}
-
-.lineup {
-  display: none !important;
 }
  .credits:{
   margin-left: 25px;
@@ -1395,7 +1381,21 @@ overflow: hidden;
 padding: 0;
 }
 
+.bit-events td {
+   height: inherit !important;
+}
 
+.bit-location {
+   width: 23%!important;
+}
+
+.bit-venue {
+  display: block;
+}
+
+.lineup {
+  display: none !important;
+  
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
 } 
