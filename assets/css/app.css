@@ -1065,12 +1065,17 @@ color: #A7A7A7!important;
 border: none;
 background-color: #303030;
 letter-spacing: 1px;
+position: inherit;
 margin: 0 auto;
-margin-top:20px;
 }
 
+.e2ma_signup_form_button_row {
+float: none!important;
+}
+
+
 #social-float>ul {
-margin-top: 95px;
+margin-top: 160px;
 }
 
 }
