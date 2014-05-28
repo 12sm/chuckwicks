@@ -1053,10 +1053,6 @@ body {
   padding-top: 20px;
 }
 
-/*td a {
-font-size: initial!important;
-}*/
-
 p{
    color: #83807A;
 }
@@ -1148,8 +1144,12 @@ font-size: 14px;
 .navbar-brand {display:none;}
 
 .bit-venue{
-      display: block!important;
+      display: block !important;
    }
+
+.bit-lineup {
+  display: none !important;
+}
 
 footer {
   padding-top: initial;
@@ -1342,6 +1342,11 @@ display: none;
 .credits {
   margin-left: -10px;
 } 
+
+td a {
+text-align: inherit !important;
+line-height: inherit !important;
+}
 } 
 
 @media (min-width:1250px) {
