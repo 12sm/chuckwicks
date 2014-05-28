@@ -1157,8 +1157,16 @@ footer {
   margin-left: initial;
   }
 
-   .bit-location{
+.bit-location {
    width: 23%!important;
+}
+
+.bit-venue {
+  display: block !important;
+}
+
+.lineup {
+  display: none !important;
 }
 
 .col-md-6 .bands-in-town-section { 
@@ -1312,13 +1320,7 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } 
 
-.bit-venue {
-  display: block !important;
-}
 
-.lineup {
-  display: none !important;
-}
 
 .credits {
   margin-left: -22px;
