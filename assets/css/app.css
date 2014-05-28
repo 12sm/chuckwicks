@@ -960,7 +960,13 @@ color: #99CCFF!important;
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
 
-.aligncenter { display: block; margin: 0 auto; }
+.aligncenter { 
+  display: block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto; 
+  }
+  
 .alignleft { float: left; }
 .alignright { float: right; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
