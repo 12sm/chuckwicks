@@ -1026,6 +1026,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	margin: 0 auto;
 }
 
+#signup-button > h3 {
+font-size: 26px;
+margin-top: 10px;
+margin-right: none;
+}
+
 .e2ma_signup_form {
 width: auto!important;
 }
@@ -1047,11 +1053,7 @@ background-color: #777;
 }
 
 #e2ma_signup_submit_button {
-position: relative;
-top: -45px;
-left: 190px;
-top: -48px;
-left: 330%;
+display:block;
 width: auto!important;
 padding: 8px;
 text-transform: uppercase;
@@ -1062,6 +1064,8 @@ color: #A7A7A7!important;
 border: none;
 background-color: #303030;
 letter-spacing: 1px;
+margin: 0 auto;
+margin-top:20px;
 }
 
 #social-float>ul {
