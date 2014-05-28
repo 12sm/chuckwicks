@@ -1040,7 +1040,7 @@ border-radius: 5px;
 
 #e2ma_signup_submit_button:hover {
 color: #D6D6D6!important;
-border-color: #fff!important;
+border: none!important;
 background-color: #777;
 }
 
@@ -1060,6 +1060,10 @@ color: #A7A7A7!important;
 border: none;
 background-color: #303030;
 letter-spacing: 1px;
+}
+
+#social-float>ul {
+margin-top: 95px;
 }
 
 }
