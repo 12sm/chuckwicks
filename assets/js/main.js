@@ -27,8 +27,7 @@ var Roots = {
         e.preventDefault();
         $(this).toggleClass('hover_effect');      
     });
-    //$("#id_email").attr("placeholder", "Email");
-    //$("#id_member_field_postal_code").attr("placeholder", "Zip Code");
+    console.log('common scripts firing');
   } 
   },
   // Home page
