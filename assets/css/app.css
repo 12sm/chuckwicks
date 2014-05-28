@@ -1157,6 +1157,10 @@ footer {
   margin-left: initial;
   }
 
+.bit-events td {
+   height: auto;
+}
+
 .bit-location {
    width: 23%!important;
 }
