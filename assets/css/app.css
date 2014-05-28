@@ -1545,7 +1545,13 @@ and (orientation : portrait) {
  font-size: inherit;
 }
 #id_email {
-height: 15px;
+  height: 15px;
+}
+#id_332137{
+  height: 15px;
+}
+.e2ma_signup_form input[type=text], .e2ma_signup_form textarea, .e2ma_signup_form select {
+  padding: none;
 }
 }
 
