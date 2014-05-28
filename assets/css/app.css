@@ -1009,7 +1009,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 body {    
     background:#000;
     background-image: url("/assets/img/cwbg.jpg");
-    background-size: 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -1156,6 +1156,10 @@ footer {
   padding-top: initial;
   margin-left: initial;
   }
+
+   .bit-location{
+   width: 23%!important;
+}
 
 .col-md-6 .bands-in-town-section { 
   width: 100%;
@@ -1307,10 +1311,6 @@ padding: 0;
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
 } 
-
-.bit-location{
-  width: 23%!important;
-}
 
 .bit-venue {
   display: inherit !important;
