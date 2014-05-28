@@ -1107,9 +1107,7 @@ a{
 .vid-text{
    display: block;
 }
-/*.navbar-default {
-background: rgba(0,0,0,0.8);
-}*/
+
 /* BLOG */
 .blog-post-square {
 max-height: 500px;
@@ -1170,6 +1168,18 @@ footer {
   z-index: 1;
   width: 580px;
 }
+/* For iPad signup functionality */
+
+#signup:hover, #signup:focus, .hover_effect {
+   right: 0px!important;
+}
+
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}
+/* End */
+
 #e2ma_signup_submit_button {
   position: relative;
   top: -40px;
@@ -1202,18 +1212,6 @@ footer {
 .e2ma_signup_form_element {
   padding-bottom: 3px !important;
 }
-
-/* For iPad signup functionality */
-
-#signup:hover, #signup:focus, .hover_effect {
-   right: 0px!important;
-}
-
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;        
-}
-/* End */
 
 #menu-social-navigation{
    display: none;
