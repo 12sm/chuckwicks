@@ -1166,18 +1166,6 @@ footer {
   margin-left: initial;
   }
 
-.bit-events td {
-   height: inherit !important;
-}
-
-.bit-location {
-   width: 23%!important;
-}
-
-.bit-venue {
-  display: block !important;
-}
-
 .lineup {
   display: none !important;
 }
@@ -1283,9 +1271,9 @@ footer {
 } 
 
 
-/* Medium devices (desktops, 992px and up-) */
+/* Medium devices (desktops, 950px and up-) */
 
-@media (min-width:992px) {
+@media (min-width:950px) {
 
 .mainhome {
   left: 21%;
@@ -1333,7 +1321,17 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } 
 
+.bit-events td {
+   height: inherit !important;
+}
 
+.bit-location {
+   width: 23%!important;
+}
+
+.bit-venue {
+  display: block !important;
+}
 
 .credits {
   margin-left: -22px;
