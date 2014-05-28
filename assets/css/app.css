@@ -1159,7 +1159,7 @@ footer {
   }
 
 .bit-events td {
-   height: auto;
+   height: inherit !important;
 }
 
 .bit-location {
