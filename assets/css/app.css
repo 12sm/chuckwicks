@@ -47,6 +47,15 @@ min-height: 40px;
 width: 40px;
 }
 
+.navbar-inverse {
+background-color: transparent!important;
+border:none!important;
+}
+
+.navbar-toggle .icon-bar {
+width: 17px;
+}
+
 .nav > li > a {
     color: #83807A;
     font-family: headerfont; 
