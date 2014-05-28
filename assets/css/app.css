@@ -1273,7 +1273,7 @@ footer {
 
 /* Medium devices (desktops, 950px and up-) */
 
-@media (min-width:950px) {
+@media (min-width:800px) {
 
 .mainhome {
   left: 21%;
