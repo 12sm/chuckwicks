@@ -1371,7 +1371,6 @@ footer {
  .credits:{
   margin-left: 25px;
 }
-
 } 
 
 
@@ -1541,6 +1540,12 @@ and (orientation : portrait) {
 
 .bit-venue {
   display: none !important;
+}
+#signup-button > h3 {
+ font-size: inherit;
+}
+#id_email {
+height: 15px;
 }
 }
 
