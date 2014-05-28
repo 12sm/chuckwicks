@@ -1018,7 +1018,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 
-@media (max-width:768px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
 
 .signup-row {
     height: 0;
@@ -1078,8 +1079,6 @@ float: none!important;
 margin-top: 160px;
 }
 
-<<<<<<< HEAD
-=======
 img.size-full {
 margin: 20px 0px;
 }
@@ -1102,12 +1101,6 @@ color: #D1D1D1;
 padding: 30px 15px !important;
 background: transparent;
 }
-
->>>>>>> 95a85185fe0030391d479b8287086f2b06c7b6fa
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width:768px) {
 
 .row {
     margin-top: inherit;
