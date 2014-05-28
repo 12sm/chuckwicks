@@ -838,7 +838,7 @@ float: left;
 
 
 /*iPad fix */
-#signup:hover, #signup:focus, .hover_effect {
+#signup:hover, #signup:focus, #signup.hover_effect {
    right: 0px!important;
 }
 .hover {
