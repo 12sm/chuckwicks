@@ -1078,6 +1078,32 @@ float: none!important;
 margin-top: 160px;
 }
 
+<<<<<<< HEAD
+=======
+img.size-full {
+margin: 20px 0px;
+}
+
+article p {
+font-size: 16px;
+line-height: 1.5;
+margin-botto:30px;
+}
+
+.thumb-title>h3 {
+font-size: 16px !important;
+text-align: center;
+padding: 0 20% 0 20%;
+color: #FFF;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+color: #D1D1D1;
+padding: 30px 15px !important;
+background: transparent;
+}
+
+>>>>>>> 95a85185fe0030391d479b8287086f2b06c7b6fa
 }
 
 /* Small devices (tablets, 768px and up) */
