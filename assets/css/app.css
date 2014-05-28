@@ -1018,7 +1018,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 
-@media (max-width:768px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
 
 .signup-row {
     height: 0;
@@ -1078,8 +1079,6 @@ float: none!important;
 margin-top: 160px;
 }
 
-<<<<<<< HEAD
-=======
 img.size-full {
 margin: 20px 0px;
 }
@@ -1104,6 +1103,7 @@ background: transparent;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h1.bands-in-town-h1 {
 margin-top: -10px;
 }
@@ -1116,6 +1116,8 @@ margin-top: -10px;
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
+=======
+>>>>>>> FETCH_HEAD
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
