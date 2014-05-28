@@ -1542,7 +1542,7 @@ and (orientation : portrait) {
   display: none !important;
 }
 #signup-button > h3 {
- font-size: inherit;
+ font-size: 19px;
 }
 #id_email {
   height: 15px;
