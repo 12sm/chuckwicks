@@ -1117,7 +1117,7 @@ float: none;
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width:768px) {
+@media (min-width: 768px) {
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
@@ -1378,7 +1378,7 @@ footer {
 
 /* Medium devices (desktops, 992px and up-) */
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
 
 .mainhome {
   left: 21%;
@@ -1464,7 +1464,7 @@ text-align: inherit !important;
 }
 } 
 
-@media (min-width:1250px) {
+@media (min-width: 1250px) {
 .mainhome {
   left: 17%;
 }
@@ -1488,7 +1488,7 @@ text-align: inherit !important;
 }
 }  
 
-@media (min-width:1450px) {
+@media (min-width: 1450px) {
 .mainlogo {
   left: 14%;
 }
