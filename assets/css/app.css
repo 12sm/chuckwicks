@@ -1269,14 +1269,7 @@ footer {
   max-height:209px; 
 }
  }
-
- .credits:{
-  margin-left: 25px;
-}
-} 
-
-@media (min-width:770px) {
-
+ 
 .bit-events td {
    height: inherit !important;
 }
@@ -1292,11 +1285,11 @@ footer {
 .lineup {
   display: none !important;
 }
+ .credits:{
+  margin-left: 25px;
+}
+} 
 
-.credits {
-  margin-left: -22px;
-}
-}
 
 /* Medium devices (desktops, 992px and up-) */
 
@@ -1347,6 +1340,10 @@ padding: 0;
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
 } 
+
+.credits {
+  margin-left: -22px;
+}
 }
 
 /* Large Devices (1000px and up) */
