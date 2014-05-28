@@ -1019,7 +1019,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width:768px) {
+@media (max-width:768px) {
 
 .signup-row {
     height: 0;
@@ -1102,6 +1102,8 @@ padding: 30px 15px !important;
 background: transparent;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 h1.bands-in-town-h1 {
 margin-top: -10px;
 }
@@ -1110,7 +1112,6 @@ margin-top: -10px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
-
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
