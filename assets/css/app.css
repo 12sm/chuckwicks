@@ -1033,6 +1033,15 @@ margin-top: 10px;
 margin-right: none;
 }
 
+.e2ma_signup_form_label {
+font-family: Verdana, sans-serif;
+font-size: 16px!important;
+color: #333333;
+text-align: left;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
 .e2ma_signup_form {
 width: auto!important;
 }
@@ -1073,9 +1082,17 @@ margin: 0 auto;
 float: none!important;
 }
 
-
 #social-float>ul {
 margin-top: 160px;
+}
+
+img.size-full {
+margin: 20px 0px;
+}
+
+article p {
+font-size: 16px;
+line-height: 1.4;
 }
 
 }
