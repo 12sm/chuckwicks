@@ -360,7 +360,7 @@ display: none;
 
 
 .bit-venue {
-      display: none!!important;
+      display: none !important;
 }
 
 .bit-venue, .bit-date, .bit-description-links,
