@@ -82,6 +82,11 @@ single_videos: {
        pagination: false,
        scrollPerPage : true
       });
+    $('.instagram-grid').embedagram({
+        instagram_id: 181459823,
+        thumb_width: 200,
+        limit: 12
+      }); 
     }
   },
 photos: {
