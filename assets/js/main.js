@@ -26,7 +26,7 @@ var Roots = {
     $('.hover').bind('touchstart touchend', function(e) {
         e.preventDefault();
         $(this).toggleClass('hover_effect');      
-    }
+    });
     $("#id_email").attr("placeholder", "Email");
     $("#id_member_field_postal_code").attr("placeholder", "Zip Code");
   },
@@ -82,12 +82,6 @@ single_videos: {
        pagination: false,
        scrollPerPage : true
       });
-      
-      $('.instagram-grid').embedagram({
-        instagram_id: 181459823,
-        thumb_width: 200,
-        limit: 12
-      }); 
     }
   },
 photos: {
