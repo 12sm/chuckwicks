@@ -1106,10 +1106,18 @@ body.tour h1.bands-in-town-h1 {
 margin-top: -30px;
 }
 
+.instagram-grid {
+text-align: center;
+}
+
+.instagram-grid li {
+float: none;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width:768px) {
+@media (min-width: 768px) {
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
@@ -1359,18 +1367,17 @@ footer {
   max-width: 49%;
   max-height:209px; 
 }
- }
 
-}
  .credits:{
   margin-left: 25px;
 }
+
 } 
 
 
 /* Medium devices (desktops, 992px and up-) */
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
 
 .mainhome {
   left: 21%;
@@ -1456,7 +1463,7 @@ text-align: inherit !important;
 }
 } 
 
-@media (min-width:1250px) {
+@media (min-width: 1250px) {
 .mainhome {
   left: 17%;
 }
@@ -1480,7 +1487,7 @@ text-align: inherit !important;
 }
 }  
 
-@media (min-width:1450px) {
+@media (min-width: 1450px) {
 .mainlogo {
   left: 14%;
 }
@@ -1534,12 +1541,6 @@ and (orientation : portrait) {
 
 .bit-venue {
   display: none !important;
-}
-#signup-button > h3 {
- font-size: inherit;
-}
-#id_email {
-height: 15px;
 }
 }
 
