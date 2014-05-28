@@ -1413,13 +1413,12 @@ padding: 0;
 }
 
 .bit-venue {
-  display: inherit;
+  display: block;
 }
 
 .lineup {
   display: none !important;
  } 
-
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
 } 
@@ -1523,7 +1522,9 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
 
-
+.bit-venue {
+  display: none;
+}
 }
 
 
