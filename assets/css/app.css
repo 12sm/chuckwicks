@@ -14,6 +14,7 @@ body {
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
     color: #AAA;
 } 
 body.media{
