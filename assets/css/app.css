@@ -366,10 +366,6 @@ display: none;
   padding:10px 0px;
 }
 
-#bit-events tr {
-  line-height: 3em;
-}
-
 .bit-events, .bit-events-narrow {
    overflow: visible!important;
   } 
@@ -1297,7 +1293,7 @@ footer {
   max-height:209px; 
 }
  }
- 
+
 .bit-events td {
    height: inherit !important;
 }
@@ -1471,7 +1467,6 @@ and (orientation : portrait) {
 .bit-venue {
   display: none !important;
 }
-
 }
 
 
