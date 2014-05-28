@@ -66,7 +66,30 @@ var Roots = {
       }); 
     }
   },
+single_videos: {
+  init: function() {
 
+    $("#media-carousel").owlCarousel({
+       itemsCustom : [
+       [0, 2],
+       [480, 2],
+       [768, 3],
+       [1200, 3],
+       [1600, 3]
+       ],
+       navigation : true,
+       navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
+       pagination: false,
+       scrollPerPage : true
+      });
+      
+      $('.instagram-grid').embedagram({
+        instagram_id: 181459823,
+        thumb_width: 200,
+        limit: 12
+      }); 
+    }
+  },
 photos: {
   init: function() {
   }  
