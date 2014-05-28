@@ -1033,15 +1033,6 @@ margin-top: 10px;
 margin-right: none;
 }
 
-.e2ma_signup_form_label {
-font-family: Verdana, sans-serif;
-font-size: 16px!important;
-color: #333333;
-text-align: left;
-padding-top: 5px;
-padding-bottom: 5px;
-}
-
 .e2ma_signup_form {
 width: auto!important;
 }
@@ -1082,10 +1073,13 @@ margin: 0 auto;
 float: none!important;
 }
 
+
 #social-float>ul {
 margin-top: 160px;
 }
 
+<<<<<<< HEAD
+=======
 img.size-full {
 margin: 20px 0px;
 }
@@ -1109,10 +1103,14 @@ padding: 30px 15px !important;
 background: transparent;
 }
 
+<<<<<<< HEAD
 h1.bands-in-town-h1 {
 margin-top: -10px;
 }
 
+=======
+>>>>>>> 95a85185fe0030391d479b8287086f2b06c7b6fa
+>>>>>>> FETCH_HEAD
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1426,16 +1424,17 @@ padding: 0;
 }
 
 .bit-location {
-   width: 23%!important;
+   width: 23% !important;
 }
 
 .bit-venue {
-  display: block;
+  display: block !important;
 }
 
 .lineup {
   display: none !important;
  } 
+
 body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
 display: none;
 } 
@@ -1540,7 +1539,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 
 .bit-venue {
-  display: none;
+  display: none !important;
 }
 }
 
