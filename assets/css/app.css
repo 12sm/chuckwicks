@@ -559,7 +559,6 @@ padding-top: 15%;
   -ms-touch-action: pan-y;
 }
 .owl-carousel .owl-wrapper{
-  display: none;
   position: relative;
   left: -5px;
   -webkit-transform: translate3d(0px, 0px, 0px);
