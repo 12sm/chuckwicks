@@ -29,6 +29,7 @@ var Roots = {
     });
     $("#id_email").attr("placeholder", "Email");
     $("#id_member_field_postal_code").attr("placeholder", "Zip Code");
+  } 
   },
   // Home page
   home: {
