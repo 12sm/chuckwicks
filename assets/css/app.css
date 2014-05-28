@@ -1103,6 +1103,12 @@ padding: 0 20% 0 20%;
 color: #FFF;
 }
 
+.owl-theme .owl-controls .owl-buttons div {
+color: #D1D1D1;
+padding: 30px 15px !important;
+background: transparent;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
