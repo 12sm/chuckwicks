@@ -961,9 +961,9 @@ color: #99CCFF!important;
 
 .aligncenter { 
   display: block; 
-  /*margin: 0 auto;
+  margin: 0 auto;
   max-width: 100%;
-  height: auto;*/ 
+  height: auto; 
   }
 
 .alignleft { float: left; }
