@@ -1550,7 +1550,7 @@ body {
  }
 
 #signup:hover, #signup:focus, #signup.hover_effect {
-   right: -115px!important;
+   right: -120px!important;
 }
 #id_email {
   height: 15px;
