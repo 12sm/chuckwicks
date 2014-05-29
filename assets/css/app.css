@@ -1101,7 +1101,6 @@ text-align: center;
 .instagram-grid li {
 float: none;
 }
-
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1353,7 +1352,6 @@ footer {
     font-size: 11px;
     z-index: 100;
     margin-left: 15px;
-    
 }
 .video-body{
    height: 0px;
@@ -1492,12 +1490,13 @@ td a {
 }
 }
 
- Extra Large devices (large desktops, 1650px and up) 
+/*Extra Large devices (large desktops, 1650px and up)*/
 @media (min-width:1650px) {
 body {
   background-size: 100% !important;
 }
 }
+
 /*
 @media (min-width:1800px) {
   .container {
@@ -1572,7 +1571,6 @@ body {
 #social-float > #menu-social-navigation > li {
   margin-right: 10px;
 }
-
 }
 
 
@@ -1834,6 +1832,7 @@ body {
 	background: rgba(0, 0, 0, .8);
 }
 
+
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -1848,6 +1847,7 @@ body {
 		background-image: url(fancybox_loading@2x.gif);
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
+}
 
 
 
