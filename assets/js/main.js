@@ -25,7 +25,8 @@ var Roots = {
       // JavaScript to be fired on all pages
     $('.hover').bind('touchstart touchend', function(e) {
         e.preventDefault();
-        $(this).toggleClass('hover_effect');      
+        $(this).toggleClass('hover_effect');   
+        alert('hover effect active');   
     });
   } 
   },
