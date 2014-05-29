@@ -29,7 +29,8 @@ var Roots = {
     });
     $('.hover_effect').bind('touchstart', function(e) {
         e.preventDefault();
-        $(this).toggleClass('hover_effect');    
+        $(this).toggleClass('hover_effect');
+        alert('touch event firing');  
     });
   } 
   },
