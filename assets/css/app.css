@@ -1114,7 +1114,7 @@ body {
     background:#000;
     background-image: url("/assets/img/cwbg.jpg");
     background-size: 220%;
-    background-position: -515px;
+    background-position: -515px 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -1371,7 +1371,7 @@ footer {
 @media (min-width: 850px) {
  body {
   background-size: 200%;
-  background-position: -500px;
+  background-position: -500px 0px;
  }
 }
 
@@ -1380,7 +1380,7 @@ footer {
 @media (min-width: 992px) {
 body {
   background-size: 175%;
-  background-position: -450px;
+  background-position: -450px 0px;
 }
 
 .mainhome {
@@ -1557,6 +1557,7 @@ and (orientation : portrait) {
 body {
   background-size: 240%;
   background-position: -600px 0px;
+  background-attachment: fixed !important;
 }
 
 .bit-venue {
