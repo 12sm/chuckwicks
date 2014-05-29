@@ -1105,10 +1105,6 @@ text-align: center;
 .instagram-grid li {
 float: none;
 }
-
-.bands-in-town-embed {
-  margin-left: 1px;
-}
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1239,6 +1235,10 @@ a{
 
 .vid-text{
    display: block;
+}
+
+.bands-in-town-embed {
+  margin-left: 1px;
 }
 
 /* BLOG */
