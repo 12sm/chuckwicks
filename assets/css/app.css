@@ -299,7 +299,7 @@ color: #E64C1F!important;
 }
 
 .bands-in-town-embed {
-  margin-left: -15px;
+  margin: 0-15px 0 -15px;
 }
 
 .tour-body h3 {
@@ -1238,7 +1238,7 @@ a{
 }
 
 .bands-in-town-embed {
-  margin-left: 1px;
+  margin: 0 -1px 0 -1px;
 }
 
 /* BLOG */
