@@ -1,5 +1,8 @@
-<div class="col-xs-3 bands-in-town-section">
-				<h1 class="bands-in-town-h1">Chuck on Tour</h1>
+<div class="row">
+	<div class="col-xs-12 bands-in-town-section">
+    	<div class="row">
+			<div class="col-md-12">
+              <center><h1 class="bands-in-town-h1">Chuck on Tour</h1></center>
 			</div>
 		</div>
 		<div class="row">
