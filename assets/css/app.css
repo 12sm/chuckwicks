@@ -1482,6 +1482,9 @@ text-align: inherit !important;
 }  
 
 @media (min-width: 1450px) {
+body {
+  background-size: 110%;
+}
 .mainlogo {
   left: 14%;
 }
@@ -1493,7 +1496,7 @@ td a {
 /*Extra Large devices (large desktops, 1650px and up)*/
 @media (min-width:1650px) {
 body {
-  background-size: 100% !important;
+  background-size: 100%;
 }
 }
 
