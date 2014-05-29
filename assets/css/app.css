@@ -1375,7 +1375,9 @@ footer {
 /* Medium devices (desktops, 992px and up-) */
 
 @media (min-width: 992px) {
-
+body {
+  background-size: 110%;
+}
 .mainhome {
   left: 21%;
   padding-bottom: 30px;
@@ -1461,6 +1463,9 @@ text-align: inherit !important;
 } 
 
 @media (min-width: 1250px) {
+body {
+  background-size: 105%;
+}
 .mainhome {
   left: 17%;
 }
@@ -1485,6 +1490,9 @@ text-align: inherit !important;
 }  
 
 @media (min-width: 1450px) {
+body {
+  background-size: 100%;
+}
 .mainlogo {
   left: 14%;
 }
@@ -1535,6 +1543,11 @@ margin-left: 5px;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
+
+body {
+  background-size: 240%;
+  background-position: -765px;
+}
 
 .bit-venue {
   display: none !important;
