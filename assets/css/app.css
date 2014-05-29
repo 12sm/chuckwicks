@@ -1397,6 +1397,7 @@ footer {
    margin-left: inherit;
    margin-right: inherit;
 }
+
 h1{
    font-size: 62px;
 }
@@ -1494,7 +1495,7 @@ td a {
  Extra Large devices (large desktops, 1650px and up) 
 @media (min-width:1650px) {
 body {
-  background-size: 100%;
+  background-size: 100% !important;
 }
 }
 /*
