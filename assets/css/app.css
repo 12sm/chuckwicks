@@ -1483,7 +1483,8 @@ text-align: inherit !important;
 
 @media (min-width: 1450px) {
 body {
-  background-size: 110%;
+  background-size: 115%;
+  background-position: -100px;
 }
 .mainlogo {
   left: 14%;
@@ -1496,20 +1497,14 @@ td a {
 /*Extra Large devices (large desktops, 1650px and up)*/
 @media (min-width:1650px) {
 body {
-  background-size: 100%;
+  background-size: 105%;
 }
 }
-
-/*
 @media (min-width:1800px) {
-  .container {
-  width: 1100px;
-   }
-.main,.mainhome {
-min-height: inherit;
-left: 20%;
+body {
+  background-size: 100%;
   }    
- } */
+ } 
 
 
 /*Ipad Landscape*/
