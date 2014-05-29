@@ -10,7 +10,7 @@
 		</div>
         <div class="row">
 			<div class="col-md-12">
-				<button type="button" onclick="window.location.href='/tour'" href="http://www.bandsintown.com/ChuckWicks">More Dates</button>
+				<button type="button" onclick="window.location.href='http://www.bandsintown.com/ChuckWicks'" href="http://www.bandsintown.com/ChuckWicks">More Dates</button>
 			</div>
 		</div>
 	</div>
