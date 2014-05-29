@@ -842,9 +842,10 @@ float: left;
       display: block;
       position: relative;
    }
+   
    #signup-button > h3 {
       left: 0px;
-      font-size: 19px;
+      font-size: 19px !important;
       text-align: center;
       margin-top: 10px;
       color: #fff;
@@ -852,6 +853,7 @@ float: left;
       letter-spacing: 1px;
       margin-right: 25px;
    }
+
    #signup{
       right: 0px;
       position: relative;
@@ -1010,8 +1012,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width:768px) {
 
 .signup-row {
-    height: 0;
-    padding-top: 50px;
+  height: 0;
+  padding-top: 50px;
 	width: 80%;
 	margin: 0 auto;
 }
