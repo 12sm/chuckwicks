@@ -1498,11 +1498,14 @@ td a {
 @media (min-width:1650px) {
 body {
   background-size: 105%;
+  background-position: center;
 }
 }
+
 @media (min-width:1800px) {
 body {
   background-size: 100%;
+  background-position: center;
   }    
  } 
 
