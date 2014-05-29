@@ -1541,6 +1541,9 @@ body {
 .bit-venue {
   display: none !important;
 }
+.topspin-signup{
+      z-index: 10;
+}
 #signup-button > h3 {
  font-size: 19px;
 }
@@ -1553,16 +1556,17 @@ body {
 .e2ma_signup_form input[type=text], .e2ma_signup_form textarea, .e2ma_signup_form select {
   padding: none;
 }
+#e2ma_signup_submit_button {
+  top: -60px;
+  left: 110px;
+}
 #social-float>ul {
   right: 0px;
 }
 #social-float > #menu-social-navigation > li {
   margin-right: 10px;
 }
-#e2ma_signup_submit_button {
-  top: -75px;
-  left: 110px;
-}
+
 }
 
 
