@@ -837,16 +837,6 @@ float: left;
 }
 
 
-/*iPad fix */
-#signup:hover, #signup:focus, #signup.hover_effect {
-   right: 0px!important;
-}
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;        
-}
-/* End iPad fix*/
-
    #signup-button{
       height: 55px;
       display: block;
@@ -1297,7 +1287,15 @@ footer {
   width: 580px;
 }
 /* For iPad signup functionality */
-
+/*iPad fix */
+#signup:hover, #signup:focus, #signup.hover_effect {
+   right: 0px!important;
+}
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}
+/* End iPad fix*/
 #e2ma_signup_submit_button {
   position: relative;
   top: -40px;

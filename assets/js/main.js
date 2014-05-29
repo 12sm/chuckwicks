@@ -27,7 +27,6 @@ var Roots = {
         e.preventDefault();
         $(this).toggleClass('hover_effect');      
     });
-    console.log('common scripts firing');
   } 
   },
   // Home page
