@@ -1116,7 +1116,7 @@ float: none;
 body {    
     background:#000;
     background-image: url("/assets/img/cwbg.jpg");
-    background-size: 100%;
+    background-size: 110%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -1375,9 +1375,6 @@ footer {
 /* Medium devices (desktops, 992px and up-) */
 
 @media (min-width: 992px) {
-body {
-  background-size: 110%;
-}
 .mainhome {
   left: 21%;
   padding-bottom: 30px;
@@ -1490,9 +1487,6 @@ body {
 }  
 
 @media (min-width: 1450px) {
-body {
-  background-size: 100%;
-}
 .mainlogo {
   left: 14%;
 }
