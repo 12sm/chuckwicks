@@ -1561,6 +1561,10 @@ body {
 #social-float > #menu-social-navigation > li {
   margin-right: 10px;
 }
+#e2ma_signup_submit_button {
+  left:0px;
+}
+}
 
 
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
