@@ -1359,7 +1359,7 @@ footer {
     max-width: 15%;
     font-size: 11px;
     z-index: 100;
-    margin-left: 20px;
+    margin-left: 27px;
 }
 .video-body{
    height: 0px;
@@ -1382,7 +1382,7 @@ button {
    margin: 20px 0 0 0;
  }
  .credits {
-  margin-left: 6px;
+  margin-left: 20px;
 }
 }
 
