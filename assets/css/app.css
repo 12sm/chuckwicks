@@ -1287,7 +1287,7 @@ footer {
 /* For iPad signup functionality */
 /*iPad fix */
 #signup:hover, #signup:focus, #signup.hover_effect {
-   right: -200px!important;
+   right: -150px!important;
 }
 .hover {
 -webkit-user-select: none;
