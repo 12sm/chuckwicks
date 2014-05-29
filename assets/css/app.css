@@ -1105,11 +1105,13 @@ text-align: center;
 .instagram-grid li {
 float: none;
 }
-
 .bands-in-town-section {
   margin-left: inherit;
 }
+}
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
