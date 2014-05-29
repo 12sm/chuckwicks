@@ -112,7 +112,6 @@ margin-top: -10px;
 .col-xs-6 {
   width: 100%;
   padding-left: 22px;
-  padding-top: 30px;
 }
 
 .col-xs-1{
@@ -1103,10 +1102,6 @@ text-align: center;
 float: none;
 }
 
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
@@ -1118,6 +1113,10 @@ body {
     background-size: 110%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.col-xs-6 {
+  margin-top:30px;
 }
 
 .mainlogo{
