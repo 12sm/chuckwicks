@@ -24,7 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
     $('#signup').bind('touchstart touchend', function(e) {
-        e.preventDefault();
+
         $(this).toggleClass('hover_effect');    
     });
   } 
