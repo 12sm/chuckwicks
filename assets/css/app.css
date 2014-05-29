@@ -1552,7 +1552,7 @@ and (orientation : portrait) {
   padding: none;
 }
 #social-float>ul {
-  right: -15px;
+  right: -5px;
 }
 #social-float > #menu-social-navigation > li {
   margin-right: 15px;
