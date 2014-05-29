@@ -384,7 +384,7 @@ display: none;
 }
 
 button {
-  margin-top: 20px;
+  margin: 10px 0 0 20px;
   padding: 5px;
   font-weight: bold;
   background: rgba(0,0,0,0);
@@ -1351,7 +1351,7 @@ footer {
     max-width: 15%;
     font-size: 11px;
     z-index: 100;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 .video-body{
    height: 0px;
@@ -1362,16 +1362,16 @@ footer {
   max-width: 49%;
   max-height:209px; 
 }
-
- .credits:{
-  margin-left: 25px;
-}
 } 
 
 @media (min-width: 850px) {
  body {
   background-size: 200%;
   background-position: -500px 0px;
+ }
+
+ .button {
+   margin: 20px 0 0 0;
  }
 }
 
