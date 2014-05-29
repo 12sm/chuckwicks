@@ -298,7 +298,7 @@ color: #E64C1F!important;
 .tour-body{
 }
 
-.bands-in-town-embed {
+.bands-in-town-section {
   margin-left: -15px;
 }
 
@@ -388,7 +388,7 @@ display: none;
 }
 
 button {
-  margin: 10px 0 0 50px;
+  margin: 10px 0 0 40px;
   padding: 5px;
   font-weight: bold;
   background: rgba(0,0,0,0);
@@ -1105,10 +1105,11 @@ text-align: center;
 .instagram-grid li {
 float: none;
 }
+
+.bands-in-town-section {
+  margin-left: inherit;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
 .row {
     margin-top: inherit;
     margin-bottom: inherit;
