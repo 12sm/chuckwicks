@@ -1284,12 +1284,11 @@ footer {
   z-index: 1;
   width: 580px;
 }
-
+/* For iPad signup functionality */
+/*iPad fix */
 #signup:hover, #signup:focus, #signup.hover_effect {
    right: -150px!important;
 }
-/* For iPad signup functionality */
-/*iPad fix */
 .hover {
 -webkit-user-select: none;
 -webkit-touch-callout: none;        
@@ -1557,7 +1556,7 @@ and (orientation : portrait) {
 
 body {
   background-size: 240%;
-  background-position: -600px;
+  background-position: -600px 0px;
 }
 
 .bit-venue {
