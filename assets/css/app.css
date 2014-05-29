@@ -1371,8 +1371,8 @@ footer {
 
 @media (min-width: 850px) {
  body {
-  background-size: 160%;
-  background-position: -420px;
+  background-size: 200%;
+  background-position: -500px;
  }
 }
 
@@ -1380,8 +1380,8 @@ footer {
 
 @media (min-width: 992px) {
 body {
-  background-size: 180%;
-  background-position: -500px;
+  background-size: 175%;
+  background-position: -450px;
 }
 
 .mainhome {
@@ -1455,7 +1455,7 @@ display: none;
 
 @media (min-width:1050px) {
 body {
-  background-size: 150%;
+  background-size: 160%;
   background-position: top;
 }
 .mainhome {
