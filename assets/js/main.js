@@ -23,10 +23,9 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-    $('#signup').bind('touchstart touchend', function(e) {
+    $('#signup').bind('touchstart', function(e) {
         e.preventDefault();
-        $(this).toggleClass('hover_effect');   
-        alert('hover effect active');   
+        $(this).toggleClass('hover_effect');    
     });
   } 
   },
