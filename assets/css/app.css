@@ -1542,11 +1542,11 @@ body {
   display: none !important;
 }
 .topspin-signup{
-      z-index: 10;
 }
+
 #signup-button > h3 {
  font-size: 19px;
- z-index: 10;
+
 }
 #id_email {
   height: 15px;
