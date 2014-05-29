@@ -15,7 +15,7 @@ body {
     background-size:100%;
     width:100%;
     overflow-x: hidden;
-    color: #555;
+    color: #BBB;
 } 
 body.media{
   overflow: scroll!important;
@@ -1107,7 +1107,7 @@ float: none;
 }
 
 .bands-in-town-embed {
-  margin-left: inherit;
+  margin-left: 1px;
 }
 }
 
