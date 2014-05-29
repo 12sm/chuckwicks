@@ -27,6 +27,10 @@ var Roots = {
         e.preventDefault();
         $(this).toggleClass('hover_effect');    
     });
+    $('.hover_effect').bind('touchstart', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');    
+    });
   } 
   },
   // Home page
