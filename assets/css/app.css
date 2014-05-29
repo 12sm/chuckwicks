@@ -1562,7 +1562,8 @@ body {
   margin-right: 10px;
 }
 #e2ma_signup_submit_button {
-  left:0px;
+  top: -20px;
+  left:50px;
 }
 }
 
