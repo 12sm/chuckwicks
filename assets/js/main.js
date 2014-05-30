@@ -23,9 +23,9 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-    /*$('#signup').bind('touchstart touchend', function(e) {
+    $('#signup').bind('touchstart touchend', function(e) {
         $(this).toggleClass('hover_effect');    
-    });*/
+    });
   } 
   },
   // Home page
