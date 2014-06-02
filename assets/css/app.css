@@ -225,6 +225,9 @@ color: #FFF;
   float: left;
 }
 
+.instagram-grid li a {width:50%;}
+.instagram-grid li a img {width:100%; height:auto;}
+
 /*overwrite*/
 
 /* ==========================================================================

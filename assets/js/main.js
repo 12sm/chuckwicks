@@ -81,7 +81,7 @@ single_videos: {
       });
     $('.instagram-grid').embedagram({
         instagram_id: 181459823,
-        thumb_width: 200,
+        thumb_width: 306,
         limit: 12
       }); 
     }
