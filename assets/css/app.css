@@ -218,14 +218,16 @@ color: #FFF;
   ================================================ */
 
 .instagram-grid {
-  list-style-type: none;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
 }
 
 .instagram-grid li {
   float: left;
+  width: 50%;
 }
 
-.instagram-grid li a {width:50%;}
 .instagram-grid li a img {width:100%; height:auto;}
 
 /*overwrite*/
@@ -1134,9 +1136,6 @@ text-align: center;
 padding-left: 0!important;
 }
 
-.instagram-grid li {
-float: none;
-}
 
 ul#menu-side-navigation {
 width: 90%;
