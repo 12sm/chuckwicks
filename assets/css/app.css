@@ -206,8 +206,6 @@ color: #FFF;
    border-color: #FFF!important;
 }
 
-.alert, .alert-warning {display: none;}
-
 .entry-content-asset {
   height: auto;
   width: auto;
