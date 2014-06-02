@@ -1099,7 +1099,7 @@ margin: 0 auto;
 float: none!important;
 }
 
-.e2ma_signup_form_button:hover {border:none;}
+.e2ma_signup_form_button:hover {border:none!important;}
 
 
 #social-float>ul {
