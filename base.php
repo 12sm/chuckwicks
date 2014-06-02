@@ -17,19 +17,15 @@
         <?php endif; ?>
         <?php  if ( is_front_page() ) { ?>
             <?php get_template_part('templates/header'); ?>
-            <div class="container-fluid">
             <div class="mainhome <?php echo roots_main_class(); ?>" role="main">
             <?php include roots_template_path(); ?>
             </div> 
-            </div> 
         <?php } else { ?>
-            <div class="container-fluid">
             <div class="main <?php echo roots_main_class(); ?>" role="main">
 	            <div class="logocenter hidden-lg hidden-md hidden-sm">
 		            <img src="/assets/img/cwname.png" class="img-responsive">
 		        </div>
             <?php include roots_template_path(); ?>
-            </div>
             </div>
         <? } ?>
         <!-- /.main -->
