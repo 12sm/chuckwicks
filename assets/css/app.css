@@ -28,7 +28,12 @@ body.media{
    src: url(../fonts/Walkway-Bold.ttf);
 }
 
-a {tranisition:color .3s ease}
+a {
+	tranisition:color .3s ease;
+	outline:0;
+}
+
+a:active, a:focus {outline:0;}
 
 /* ==========================================================================
 Side Navbar
