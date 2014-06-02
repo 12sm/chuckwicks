@@ -49,6 +49,10 @@ Side Navbar
   z-index: 100;
 }
 
+ul.nav li {
+background-color: transparent;
+}
+
 .navbar {
 min-height: 40px;
 width: 40px;
