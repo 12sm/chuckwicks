@@ -1111,6 +1111,10 @@ ul#menu-side-navigation {
 width: 90%;
 }
 
+.hentry header {
+margin-top: 16%;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
