@@ -1101,6 +1101,7 @@ margin-top: -30px;
 
 .instagram-grid {
 text-align: center;
+padding-left: 0!important;
 }
 
 .instagram-grid li {
@@ -1121,6 +1122,10 @@ margin: 10% 0 0 0;
 
 .topspin-signup {
 width: 120%;
+}
+
+body.single-videos .main {
+padding-left: 32px;
 }
 
 }
