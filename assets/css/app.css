@@ -314,6 +314,16 @@ color: #E64C1F!important;
 .bit-description-links{
       display: none;
 }
+
+div.bit-invert {
+color: rgb(199, 199, 199)!important;
+background-color: #3D3D3D!important;
+border: 1px solid #4B4B4B;
+}
+
+div.bit-notify {
+color: #525252;
+}
    
 td.bit-date {
 width: 90px!important;
