@@ -45,10 +45,10 @@ var Roots = {
 
     $("#media-carousel").owlCarousel({
        itemsCustom : [
-       [0, 2],
+       [0, 1],
        [480, 2],
-       [768, 3],
-       [1200, 3],
+       [768, 2],
+       [1200, 2],
        [1600, 3]
        ],
        navigation : true,
@@ -59,7 +59,7 @@ var Roots = {
       
       $('.instagram-grid').embedagram({
         instagram_id: 181459823,
-        thumb_width: 200,
+        thumb_width: 306,
         limit: 12
       }); 
     }
@@ -68,10 +68,10 @@ single_videos: {
   init: function() {
     $("#media-carousel").owlCarousel({
        itemsCustom : [
-       [0, 2],
+       [0, 1],
        [480, 2],
-       [768, 3],
-       [1200, 3],
+       [768, 2],
+       [1200, 2],
        [1600, 3]
        ],
        navigation : true,

@@ -1099,6 +1099,8 @@ margin: 0 auto;
 float: none!important;
 }
 
+.e2ma_signup_form_button:hover {border:none;}
+
 
 #social-float>ul {
 margin-top: 160px;
