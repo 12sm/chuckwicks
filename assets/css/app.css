@@ -1160,16 +1160,16 @@ padding-left: 32px;
 
 .logocenter {
 position: fixed;
-top: 45px;
+top: 0px;
 width: 100%;
 background: #000;
-padding: 15px 0px;
-z-index:10;	
+padding: 25px 0px;
+z-index: 10;
 }
 
 .logocenter img {
 margin-left: 35px;
-width: 320px;	
+width: 200px;
 }
 
 }
