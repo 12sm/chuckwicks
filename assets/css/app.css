@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:100%;
+	position:fixed;
     width:100%;
     overflow-x: hidden;
     color: #BBB;
