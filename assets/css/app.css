@@ -924,7 +924,9 @@ color: #A7A7A7!important;
 border: none;
 background-color: #303030;
 letter-spacing: 1px;
-padding:3px;
+padding: 3px;
+width: auto!important;
+text-align: center;
 }
 
 #e2ma_signup_submit_button:hover{
