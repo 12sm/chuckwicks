@@ -6,16 +6,6 @@
     </div>
   [endif]-->
 
-  <?php
-    do_action('get_header');
-    // Use Bootstrap's navbar if enabled in config.php
-    if (current_theme_supports('bootstrap-top-navbar')) {
-      get_template_part('templates/header-top-navbar');
-    } else {
-
-    }
-  ?>
-
   <div class="wrap container-fluid" role="document">
     <div class="content row">
         <?php if (roots_display_sidenavbar()) : ?>
@@ -40,11 +30,6 @@
             </div>
         <? } ?>
         <!-- /.main -->
-      <!--<?php if (roots_display_sidebar()) : ?>
-        <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
-          <?php include roots_sidebar_path(); ?>
-        </aside><!-- /.sidebar -->
-      <!--<?php endif; ?> -->
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
