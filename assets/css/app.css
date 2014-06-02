@@ -1106,6 +1106,11 @@ text-align: center;
 .instagram-grid li {
 float: none;
 }
+
+ul#menu-side-navigation {
+width: 90%;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
