@@ -1284,10 +1284,6 @@ a{
   display: inherit;
 }
 
-.newslmobdiv {
-  display: none
-}
-
 .vid-text{
    display: block;
 }
@@ -1478,6 +1474,10 @@ h1{
 }
 h2{
    font-size: 40px;
+}
+
+.newslmobdiv {
+  display: none
 }
 
 .tour-body, .blog-home-body, .media-body {
