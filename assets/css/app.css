@@ -916,7 +916,6 @@ float: left;
 position: relative;
 top: -31px;
 left: 160px;
-padding: 1px;
 text-transform: uppercase;
 font-family: "headerfont";
 font-weight: bold;
@@ -925,12 +924,14 @@ color: #A7A7A7!important;
 border: none;
 background-color: #303030;
 letter-spacing: 1px;
+padding:3px;
 }
 
 #e2ma_signup_submit_button:hover{
    color: #fff!important;
    border: 2px solid #fff!important;
    border-color: #fff!important;
+   padding: 1px;
 }
    .e2ma_signup_form_row{
       border: 0px solid #fff!important;
@@ -1099,7 +1100,7 @@ margin: 0 auto;
 float: none!important;
 }
 
-.e2ma_signup_form_button:hover {border:none!important;}
+#e2ma_signup_submit_button:hover {border:none!important;}
 
 
 #social-float>ul {
