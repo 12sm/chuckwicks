@@ -755,6 +755,10 @@ color: rgb(200, 240, 255);
 .hentry .entry-content { }
 .hentry footer {}
 
+body.blog h2:hover {
+color: rgb(241, 248, 163);
+}
+
 .blog-home-body ,
 
 /*body.category-news .wrap,
