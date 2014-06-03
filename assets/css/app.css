@@ -1671,9 +1671,8 @@ body {
 #social-float > #menu-social-navigation > li {
   margin-right: 10px;
 }
-.logocenter img {
-margin-left: 35px;
-width: 200px;
+.mainlogo {
+left: 120px;
 }
 }
 
