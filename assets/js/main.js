@@ -28,7 +28,7 @@ var Roots = {
     });*/
 if ($(window).width() <= 768){
     $.backstretch('../img/cwbgdk-mob.jpg');
-  } else{
+  } else {
     $.backstretch('../img/cwbg.jpg');
   }
   },
