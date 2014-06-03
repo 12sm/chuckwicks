@@ -26,6 +26,7 @@ var Roots = {
     /*$('#signup').bind('touchstart touchend', function(e) {
         $(this).toggleClass('hover_effect');    
     });*/
+  console.log('common page is firing');
 if ($(window).width() <= 768){
     $.backstretch('../img/cwbgdk-mob.jpg');
   } else {
