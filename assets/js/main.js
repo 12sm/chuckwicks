@@ -26,7 +26,11 @@ var Roots = {
     /*$('#signup').bind('touchstart touchend', function(e) {
         $(this).toggleClass('hover_effect');    
     });*/
-  } 
+if ($(window).width() <= 768){
+    $.backstretch('../img/cwbgdk-mob.jpg');
+  } else{
+    $.backstretch('../img/cwbg.jpg');
+  }
   },
   // Home page
   home: {
