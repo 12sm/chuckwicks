@@ -28,9 +28,9 @@ var Roots = {
     });*/
   console.log('common page is firing');
 if ($(window).width() <= 768){
-    $.backstretch('..assets/img/cwbgdk-mob.jpg');
+    $.backstretch('../assets/img/cwbgdk-mob.jpg');
   } else {
-    $.backstretch('..assets/img/cwbg.jpg');
+    $.backstretch('../assets/img/cwbg.jpg');
   }
     }
   },
