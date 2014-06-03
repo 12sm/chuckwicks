@@ -354,7 +354,9 @@ tr th{
    letter-spacing: .5px!important;
    word-spacing: 3px!important;
 }
-
+.bit-track-artist-header{
+  display: none;
+}
 .bit-buy-tix {
 color: #FFFFFF;
 text-decoration: none;
