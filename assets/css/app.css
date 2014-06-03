@@ -9,10 +9,10 @@ html {
 
 body {
     background: #000;
-    background-image:url("/assets/img/cwbgdk-mob.jpg");
+    /*background-image:url("/assets/img/cwbgdk-mob.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
+    background-size:100%;*/
     width:100%;
     overflow-x: hidden;
     color: #BBB;
@@ -1181,11 +1181,11 @@ width: 200px;
 
 body {    
     background:#000;
-    background-image: url("/assets/img/cwbg.jpg");
+    /*background-image: url("/assets/img/cwbg.jpg");
     background-size: 220%;
     background-position: -515px 0px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 .mainlogo{
