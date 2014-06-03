@@ -23,9 +23,9 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-    /*$('#signup').bind('touchstart touchend', function(e) {
+    $('#signup').bind('touchstart', function(e) {
         $(this).toggleClass('hover_effect');    
-    });*/
+    });
   console.log('common page is firing');
 if ($(window).width() <= 768){
     $.backstretch('../assets/img/cwbgdk-mob.jpg');
