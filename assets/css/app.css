@@ -1644,8 +1644,6 @@ body {
 .bit-venue {
   display: none !important;
 }
-.topspin-signup{
-}
 
 #signup-button > h3 {
  font-size: 19px;
@@ -1672,6 +1670,10 @@ body {
 }
 #social-float > #menu-social-navigation > li {
   margin-right: 10px;
+}
+.logocenter img {
+margin-left: 35px;
+width: 200px;
 }
 }
 
