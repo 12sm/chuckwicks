@@ -42,7 +42,13 @@ Side Navbar
 #menu-side-navigation {
   background-color: rgba(0, 0, 0, 0.9);
 }
-
+.navbar-collapse {
+background-color: rgba(0, 0, 0, 0.7);
+min-width: 100%;
+z-index: 100;
+padding: 0px;
+margin: 0 -20px;
+}
 .navbar-collapse {
   background-color: rgba(0, 0, 0, 0.7);
   min-width: 100%;
@@ -1141,7 +1147,7 @@ padding-left: 0!important;
 
 
 ul#menu-side-navigation {
-width: 90%;
+width: 100%;
 }
 
 .hentry header {
@@ -1261,6 +1267,7 @@ a{
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.45);
   min-width: 15% !important;
   z-index: 1;
+  margin: 0px;
 }
 
 .navbar-collapse.collapse {
