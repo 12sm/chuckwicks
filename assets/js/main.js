@@ -32,6 +32,7 @@ if ($(window).width() <= 768){
   } else {
     $.backstretch('../img/cwbg.jpg');
   }
+    }
   },
   // Home page
   home: {
