@@ -9,7 +9,7 @@
     </div>
       <div class="collapse navbar-collapse affix" role="navigation" >
       <div class="navlogo">
-      <img src="/assets/img/cwlogo.png">
+      <img src="/assets/img/cwlogo-bright.png">
       </div>     
       <?php
         if (has_nav_menu('side_navigation')) :
