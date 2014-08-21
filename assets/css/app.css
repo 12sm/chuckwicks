@@ -273,10 +273,6 @@ color: #FFF!important;
 font-size: 18px;
 }
 
-.navbar-nav li > a:hover {
-  background:none;
-  }
-
 #menu-navbar > li > a:hover,
 #menu-navbar > li > a:focus {
 color: #E64C1F!important;
